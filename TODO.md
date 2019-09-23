@@ -5,7 +5,7 @@
 - ~~Filter it by the ones that have a thumbnail and have a description~~
 - ~~Checks cache~~
 - ~~Saves it locally~~
-- Delivers a random image
+- ~~Delivers a random image~~
 - Document json return with pydantic
 - Slack hook
 
