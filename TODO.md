@@ -2,9 +2,9 @@
 
 ## Dev
 - ~~Get the data from the Wellcome API upon initialisation~~
-- Filter it by the ones that have a thumbnail and have a description
-- Checks cache
-- Saves it locally
+- ~~Filter it by the ones that have a thumbnail and have a description~~
+- ~~Checks cache~~
+- ~~Saves it locally~
 - Delivers a random image
 - Slack hook
 
