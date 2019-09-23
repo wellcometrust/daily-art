@@ -18,7 +18,7 @@ docker build -t wt-da ./
 docker run -p 8000:8000 wt-da
 ```
 
-Interactive Swagger UI documentation is served on [http://localhost:8000/docs]. For a summary, see table below:
+Interactive Swagger UI documentation is served on [http://localhost:8000/docs](). For a summary, see table below:
 
 
 | Endpoint   |  Parameters | Return |
