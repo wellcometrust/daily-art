@@ -2,5 +2,7 @@
 
 python daily-art/resources/data.py
 
-cat /app/cronspecs.txt | crontab
-cron
+if [[ "$SLACK_HOOK" != "" ]]; then
+    cat /app/cronspecs.txt | crontab
+    cron
+fi

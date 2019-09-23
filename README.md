@@ -12,11 +12,12 @@ pip install -r requirements.txt
 uvicorn daily-art.main:app # --reload for development mode
 ```
 
-To run via docker:
+To run via docker-compose and publish the message periodically via a slack incoming hook (if you don't mind about posting to slack, just ignore the first line):
 ```
-docker build -t wt-da ./
-docker run -p 8000:8000 wt-da
+export $SLACK_HOOK=<address_to_slack_incoming_hook>
+docker-compose up
 ```
+
 
 Interactive Swagger UI documentation is served on [http://localhost:8000/docs](). For a summary, see table below:
 
