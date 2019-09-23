@@ -1,0 +1,28 @@
+<html>
+<head>
+    <title>Daily Wellcome Art</title>
+    <link rel="stylesheet" href="{{ url_for('static', path='css/skeleton.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', path='css/normalize.css') }}">
+
+</head>
+<body>
+  <div class="container">
+        <div class="row">
+            <h1>{{ work.title }}</h1>
+            <p>{{ work.description | safe}}</p>
+            <img src="{{ work.full_image_uri }}" style="display:block;margin-left:auto;margin-right:auto;">
+
+        </div>
+
+        <div class="row" style="margin-top:20px;">
+            <p>For a full link to the collection work
+                <a href="{{work.collection_url}}" target="_blank">click here</a>
+            </p>
+            <p>Coming soon: see related...</p>
+            <p> {{ work }}</p>
+
+        </div>
+
+  </div>
+</body>
+</html>
