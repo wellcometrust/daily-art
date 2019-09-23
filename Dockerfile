@@ -8,3 +8,5 @@ COPY . /app
 
 ENV APP_MODULE="daily-art.main:app"
 ENV PORT=8000
+
+RUN apt-get update && apt-get -y install cron

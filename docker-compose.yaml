@@ -1,0 +1,10 @@
+version: '3'
+services:
+  web:
+    build:
+        context: .
+        args:
+          - SLACK_HOOK=${SLACK_HOOK}
+    ports:
+    - "8000:8000"
+    
