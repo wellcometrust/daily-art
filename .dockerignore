@@ -1,0 +1,10 @@
+.git
+.gitignore
+.idea
+.ipynb_checkpoints
+__pycache__
+.pytest_cache
+dist
+env/
+data/*.json
+data/scripts/*
