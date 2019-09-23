@@ -1,19 +1,29 @@
 # Daily Wellcome Art
 
-An API to deliver a daily dosis of art from the Wellcome Collection.
+An API to deliver daily art from the Wellcome Collection.
 
 ### Quickstart
-Easiest way to start the api and the daily cron-'type' job is via:
+To run standalone:
+
 ```
-docker-compose up
+virtualenv -p python3 env/
+. env/bin/activate
+pip install -r requirements.txt
+uvicorn daily-art.main:app # --reload for development mode
 ```
 
-Documentation is served on [localhost:8000/docs]. For a summary, see table below:
+To run via docker:
+```
+docker build -t wt-da ./
+docker run -p 8000:8000 wt-da
+```
+
+Interactive Swagger UI documentation is served on [http://localhost:8000/docs](). For a summary, see table below:
 
 
 | Endpoint   |  Parameters | Return |
 |---|---|--------|
-| /random_image   | width: `integer` (default=300. An optional integer for the image size) | A html template with a random art work and description. |
-| /random_image/json   | width: `integer` (default=300. An optional integer for the image size) | A json with artwork information |
+| /random-art   | width: `integer` (default=300. An optional integer for the image size) | A html template with a random art work and description. |
+| /random-art/json   | width: `integer` (default=300. An optional integer for the image size) | A json with artwork information |
 
 Some script to download and clean the data are available in the subfolder `/data`

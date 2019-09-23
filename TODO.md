@@ -6,13 +6,15 @@
 - ~~Checks cache~~
 - ~~Saves it locally~~
 - ~~Delivers a random image~~
-- Document json return with pydantic
 - Slack hook
+- Document json return with pydantic
+- Cron
+- Clean HTML from descriptions
 
 ## Deployment
 
-- Dockerfile
-- Docker-compose file
+- ~~Dockerfile~~
+- Docker-compose for cron (?)
 - k8s yaml (?)
 
 ## Plus
