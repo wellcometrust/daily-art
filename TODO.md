@@ -9,6 +9,7 @@
 - Slack hook
 - Document json return with pydantic
 - Cron
+- Clean HTML from descriptions
 
 ## Deployment
 
