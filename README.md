@@ -8,10 +8,6 @@ Easiest way to start the api and the daily cron-'type' job is via:
 docker-compose up
 ```
 
-TODO:
-
-- We need the slack hook to have an easy delete button (ideas: https://api.slack.com/methods/chat.delete with a TS, or an easier button)
-
 Documentation is served on [localhost:8000/docs]. For a summary, see table below:
 
 
