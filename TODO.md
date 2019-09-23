@@ -11,8 +11,7 @@
 
 ## Deployment
 
-- Dockerfile
-- Docker-compose file
+- ~~Dockerfile~~
 - k8s yaml (?)
 
 ## Plus
