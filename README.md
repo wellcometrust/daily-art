@@ -1,6 +1,6 @@
 # Daily Wellcome Art
 
-An API to deliver a daily art work from the Wellcome Collection.
+An API to deliver daily art from the Wellcome Collection.
 
 ### Quickstart
 To run standalone:
@@ -15,10 +15,10 @@ uvicorn daily-art.main:app # --reload for development mode
 To run via docker:
 ```
 docker build -t wt-da ./
-docker run -p 80:8000 wt-da
+docker run -p 8000:8000 wt-da
 ```
 
-Documentation is served on [localhost:8000/docs]. For a summary, see table below:
+Interactive Swagger UI documentation is served on [http://localhost:8000/docs]. For a summary, see table below:
 
 
 | Endpoint   |  Parameters | Return |
