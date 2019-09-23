@@ -17,6 +17,8 @@
 
 ## Plus
 - We need a button to easily delete slack hook (https://api.slack.com/methods/chat.delete with a TS)
+- Check if an image has already been used
+- Slack reverse feedback to annotate images (how?)
 - Html Iframe or page generation
 
 ## Stretch goal
