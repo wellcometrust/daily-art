@@ -1,5 +1,4 @@
 import random
-
 import requests
 
 from fastapi import FastAPI
@@ -48,7 +47,7 @@ def random_art_json(width: int = 400):
 
 
 @app.post("/random-art/slack")
-def random_art_slack(hook: SlackHook, width: int=400):
+def random_art_slack(hook: SlackHook, width: int = 400):
     """ Posts a random artwork to a given slack hook """
     work = get_random_artwork(width=width)
 
