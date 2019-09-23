@@ -15,7 +15,7 @@
 - k8s yaml (?)
 
 ## Plus
-- We need a button to easily delete slack hook
+- We need a button to easily delete slack hook (https://api.slack.com/methods/chat.delete with a TS)
 - Html Iframe or page generation
 
 ## Stretch goal
