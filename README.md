@@ -23,7 +23,7 @@ Interactive Swagger UI documentation is served on [http://localhost:8000/docs]()
 
 | Endpoint   |  Parameters | Return |
 |---|---|--------|
-| /random_image   | width: `integer` (default=300. An optional integer for the image size) | A html template with a random art work and description. |
-| /random_image/json   | width: `integer` (default=300. An optional integer for the image size) | A json with artwork information |
+| /random-art   | width: `integer` (default=300. An optional integer for the image size) | A html template with a random art work and description. |
+| /random-art/json   | width: `integer` (default=300. An optional integer for the image size) | A json with artwork information |
 
 Some script to download and clean the data are available in the subfolder `/data`
