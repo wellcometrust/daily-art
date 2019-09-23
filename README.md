@@ -1,6 +1,6 @@
 # Daily Wellcome Art
 
-An API to deliver a daily dosis of art from the Wellcome Collection.
+An API to deliver a daily art work from the Wellcome Collection.
 
 ### Quickstart
 To run standalone:
