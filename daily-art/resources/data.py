@@ -49,21 +49,19 @@ def get_data(exclude_used=False):
     else:
         logger.info("Hit cache! Loading from local file.")
         works = json.load(f)
+        f.close()
 
         works = {
             idx: work for idx, work in works.items()
             if not work.get('used') or not exclude_used
         }
 
-        f.close()
-
     logger.info("Finished loading {} filtered art works.".format(len(works)))
     return works
 
 
-def update_data(key):
-    """ Update json file tagging work with 'key' as used """
-    logger.info("Recovering dataset.")
+def update_data(work_id, **kwargs):
+    """ Update json file with boolean kwargs from false to true. """
     try:
         f = open(join(LOCAL_PATH_TO_DATA, FILTERED_FILENAME), 'r')
     except FileNotFoundError:
@@ -71,8 +69,11 @@ def update_data(key):
     else:
         works = json.load(f)
         f.close()
+        logging.info("Work {} updated with {}".format(work_id, kwargs))
 
-        works[key]['used'] = True
+        for key, value in kwargs.items():
+            if not works[work_id].get(key):
+                works[work_id][key] = value
 
         with open(join(LOCAL_PATH_TO_DATA, FILTERED_FILENAME), 'w') as f:
             json.dump(works, f)
@@ -132,8 +133,10 @@ def download_data_from_source():
     remove(tmp_file)
 
     # Converts to dictionary indexed by id for O(1) acesss
+    works = {work['id']: work for work in works}
+
     with open(join(LOCAL_PATH_TO_DATA, FILTERED_FILENAME), 'w') as f:
-        json.dump({work['id']: work for work in works}, f)
+        json.dump(works, f)
 
     return works
 
