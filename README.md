@@ -1,6 +1,6 @@
 # Daily Wellcome Art
 
-An API to deliver daily art from the Wellcome Collection.
+An API to deliver daily art from the Wellcome Collection. It pulls data from the collection api (`http://api.wellcomecollection.org/`) and exposes via an endpoint to get a random work, and an endpoint to post to a custom slack hook.
 
 ### Quickstart
 To run standalone:
