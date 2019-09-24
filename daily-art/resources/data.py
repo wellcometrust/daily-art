@@ -61,6 +61,23 @@ def get_data(exclude_used=False):
     return works
 
 
+def update_data(key):
+    """ Update json file tagging work with 'key' as used """
+    logger.info("Recovering dataset.")
+    try:
+        f = open(join(LOCAL_PATH_TO_DATA, FILTERED_FILENAME), 'r')
+    except FileNotFoundError:
+        logger.info("File not found, not updating data.")
+    else:
+        works = json.load(f)
+        f.close()
+
+        works[key]['used'] = True
+
+        with open(join(LOCAL_PATH_TO_DATA, FILTERED_FILENAME), 'w') as f:
+            json.dump(works, f)
+
+
 def download_data_from_source():
     """ Downloads data from Wellcome API """
     counter = 0
@@ -122,4 +139,4 @@ def download_data_from_source():
 
 
 if __name__ == "__main__":
-    works = get_data()
+    get_data()

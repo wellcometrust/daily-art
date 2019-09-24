@@ -6,7 +6,7 @@ from starlette.staticfiles import StaticFiles
 from starlette.templating import Jinja2Templates
 from starlette.requests import Request
 
-from .resources.data import get_data, convert_iiif_width, ArtWork
+from .resources.data import ArtWork, get_data, update_data, convert_iiif_width
 from .resources.slack_hook import SlackHook
 
 works = get_data()
@@ -27,6 +27,9 @@ def get_random_artwork(width, exclude_used=False):
     filtered_works[key]["full_image_uri"] = convert_iiif_width(
         filtered_works[key]["full_image_uri"], width=width
     )
+
+    if exclude_used:
+        update_data(key)
 
     return filtered_works[key]
 
