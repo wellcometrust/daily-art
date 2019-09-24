@@ -9,7 +9,6 @@ class SlackHook(BaseModel):
     @classmethod
     def convert_to_work_slack_post(cls, work):
         """ Given a daily-art work JSON, converts to a slack JSON """
-        ts = 20190916
 
         if len(work['contributors']) > 0:
             try:
@@ -33,8 +32,7 @@ class SlackHook(BaseModel):
                     "footer_icon": "https://upload.wikimedia.org/wikipedia/"
                                    "commons/thumb/5/58/"
                                    "Wellcome_Trust_logo.svg/"
-                                   "1024px-Wellcome_Trust_logo.svg.png",
-                    "ts": ts
+                                   "1024px-Wellcome_Trust_logo.svg.png"
                 }
             ]
         }
