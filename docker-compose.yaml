@@ -3,8 +3,8 @@ services:
   web:
     build:
         context: .
-        args:
-          - SLACK_HOOK=${SLACK_HOOK}
+    environment:
+      - SLACK_HOOK=${SLACK_HOOK}
     ports:
-    - "8000:8000"
+      - "8000:8000"
     
