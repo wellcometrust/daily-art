@@ -38,7 +38,7 @@ def convert_iiif_width(uri, width="full"):
     return "https://" + "/".join(uri_end)
 
 
-def get_data():
+def get_data(exclude_used=False):
     """ Gets data from the collection webpage or cached file """
     logger.info("Recovering dataset.")
     try:
@@ -48,7 +48,13 @@ def get_data():
         works = download_data_from_source()
     else:
         logger.info("Hit cache! Loading from local file.")
-        works = [json.loads(line) for line in f]
+        works = json.load(f)
+
+        works = {
+            idx: work for idx, work in works.items()
+            if not work.get('used') or not exclude_used
+        }
+
         f.close()
 
     logger.info("Finished loading {} filtered art works.".format(len(works)))
@@ -108,12 +114,12 @@ def download_data_from_source():
     logger.info("Removing tmp file.")
     remove(tmp_file)
 
+    # Converts to dictionary indexed by id for O(1) acesss
     with open(join(LOCAL_PATH_TO_DATA, FILTERED_FILENAME), 'w') as f:
-        for work in works:
-            f.write(json.dumps(work) + "\n")
+        json.dump({work['id']: work for work in works}, f)
 
     return works
 
 
 if __name__ == "__main__":
-    get_data()
+    works = get_data()
