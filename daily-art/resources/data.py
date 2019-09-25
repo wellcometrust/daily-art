@@ -14,8 +14,15 @@ LOCAL_PATH_TO_DATA = join(
     '../../data'
 )
 FILTERED_FILENAME = 'filtered_list_of_works.json'
+
+# Wellcome_DATASET_URL contains the entire list of works
+# S3_DATASET contains a subset, already filtered by description and
+# pre-annotated.
+
 WELLCOME_DATASET_URL = "https://data.wellcomecollection.org/" \
                          "catalogue/v2/works.json.gz"
+S3_DATASET_URL = "https://wellcome-collection-data.s3.eu-west-2" \
+                 ".amazonaws.com/annotated-data/filtered_list_of_works.json"
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
@@ -38,23 +45,39 @@ def convert_iiif_width(uri, width="full"):
     return "https://" + "/".join(uri_end)
 
 
-def get_data(exclude_used=False):
-    """ Gets data from the collection webpage or cached file """
+def get_data(exclude_used=False, exclude_sensitive=False):
+    """
+    Gets data from the cached file, if it fails, downloads from the s3 bucket,
+    and if the s3 bucket fails, downloads from the Wellcome Collection API.
+
+    Args:
+        exclude_used: whether to exclude works with the key "used"
+        exclude_sensitive: whether to exclude works with the key "sensitivity"
+
+    Returns: dict of works
+
+    """
     logger.info("Recovering dataset.")
     try:
         f = open(join(LOCAL_PATH_TO_DATA, FILTERED_FILENAME), 'r')
     except FileNotFoundError:
-        logger.info("Cache not found, downloading dataset from source.")
-        works = download_data_from_source()
+        logger.info("Cache not found, downloading dataset from S3.")
+        try:
+            works = download_data_from_annotated_s3_bucket()
+        except:
+            logger.info("Could not connect to S3 bucket. "
+                        "Downloading dataset from Wellcome API URI")
+            works = download_data_from_source()
     else:
         logger.info("Hit cache! Loading from local file.")
         works = json.load(f)
         f.close()
 
-        works = {
-            idx: work for idx, work in works.items()
-            if not work.get('used') or not exclude_used
-        }
+    works = {
+        idx: work for idx, work in works.items()
+        if (not work.get('used') or not exclude_used) and
+           (not work.get('sensitivity') or not exclude_sensitive)
+    }
 
     logger.info("Finished loading {} filtered art works.".format(len(works)))
     return works
@@ -77,6 +100,17 @@ def update_data(work_id, **kwargs):
 
         with open(join(LOCAL_PATH_TO_DATA, FILTERED_FILENAME), 'w') as f:
             json.dump(works, f)
+
+
+def download_data_from_annotated_s3_bucket():
+    """ Gets annotated data, pre-filtered and with annotated sensitivity """
+
+    works = requests.get(S3_DATASET_URL).json()
+
+    with open(join(LOCAL_PATH_TO_DATA, FILTERED_FILENAME), 'w') as f:
+        json.dump(works, f)
+
+    return works
 
 
 def download_data_from_source():

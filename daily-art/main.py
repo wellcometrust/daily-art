@@ -17,9 +17,11 @@ app.mount("/static", StaticFiles(directory="daily-art/static"),
 templates = Jinja2Templates(directory="daily-art/templates")
 
 
-def get_random_artwork(width, exclude_used=False):
+def get_random_artwork(width, exclude_used=False, exclude_sensitive=False):
     """ Utility function to get random artwork """
-    filtered_works = get_data(exclude_used=exclude_used)
+    filtered_works = get_data(
+        exclude_used=exclude_used, exclude_sensitive=exclude_sensitive
+    )
 
     idx = random.randint(0, len(filtered_works) - 1)
     work_id = list(filtered_works.keys())[idx]
@@ -55,7 +57,9 @@ def random_art_json(width: int = 600):
 @app.post("/random-art/slack")
 def random_art_slack(hook: SlackHook, width: int = 600):
     """ Posts a random artwork to a given slack hook """
-    work = get_random_artwork(width=width, exclude_used=True)
+    work = get_random_artwork(width=width,
+                              exclude_used=True,
+                              exclude_sensitive=True)
 
     slack_json = SlackHook.convert_to_work_slack_post(work)
     requests.post(hook.link, json=slack_json)

@@ -6,9 +6,7 @@ An API to deliver daily art from the Wellcome Collection. It pulls data from the
 To run standalone:
 
 ```
-virtualenv -p python3 env/
-. env/bin/activate
-pip install -r requirements.txt
+make
 uvicorn daily-art.main:app # --reload for development mode
 ```
 
@@ -26,5 +24,3 @@ Interactive Swagger UI documentation is served on [http://localhost:8000/docs]()
 |---|---|--------|
 | /random-art   | width: `integer` (default=300. An optional integer for the image size) | A html template with a random art work and description. |
 | /random-art/json   | width: `integer` (default=300. An optional integer for the image size) | A json with artwork information |
-
-Some script to download and clean the data are available in the subfolder `/data`
