@@ -1,4 +1,4 @@
 SHELL=/bin/bash
 
-* * * * * /app/curl.sh
+30 10 * * 1-5 /app/curl.sh
 
