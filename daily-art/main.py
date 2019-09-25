@@ -37,9 +37,9 @@ def get_random_artwork(width, exclude_used=False, exclude_sensitive=False):
 
 
 @app.get("/random-art")
-def random_art(request: Request, width: int = 600):
+def random_art(request: Request, width: int = 600, exclude_used: bool = True):
     """ Returns a rendered web page with a random artwork """
-    work = get_random_artwork(width=width)
+    work = get_random_artwork(width=width, exclude_used=exclude_used)
 
     return templates.TemplateResponse(
         "main.html", {"work": work, "request": request}
