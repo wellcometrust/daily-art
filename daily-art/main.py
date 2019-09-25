@@ -68,12 +68,23 @@ def random_art_slack(hook: SlackHook, width: int = 600):
 
 
 @app.get("/flag/{work_id}")
-def flag_art(work_id: str, sensitivity: bool = False, redirect: bool = False):
+def flag_art(work_id: str, sensitivity: bool = False,
+             interesting: bool = False,
+             redirect: bool = False):
     """ Flags art as sensitive or not """
 
-    update_data(work_id=work_id, sensitivity=sensitivity)
+    update_data(work_id=work_id,
+                sensitivity=sensitivity,
+                interesting=interesting)
 
     if redirect:
         return RedirectResponse("/random-art")
     else:
         return {"message": "Work id {} correctly updated".format(work_id)}
+
+
+@app.get("/works")
+def list_of_works():
+    """ Gets list of all works in the app"""
+
+    return get_data()
