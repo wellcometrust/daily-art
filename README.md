@@ -40,4 +40,6 @@ To integrate with your slack channel:
 3. [Find the ID of the channel you want to post to](https://api.slack.com/methods/channels.list)
 4. Send a `POST` to `/random-art/slack` with a channel_id and the token.
 
-You also might want to check `main/slack_plugin.py` for scheduling daily messages for the future via a BOT.
+## Alternatives to `cron`
+
+In addition, if you don't have a server or don't want to run it on docker, you might want to check `main/slack_plugin.py` for scheduling daily messages for the future via a Slack BOT. It is restricted to 4 months of message.
