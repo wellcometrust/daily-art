@@ -56,9 +56,13 @@ def random_art_slack(hook: SlackHook, width: int = 600):
     work = get_random_artwork(width=width)
 
     slack_json = SlackHook.convert_to_work_slack_post(work)
-    requests.post(hook.link, json=slack_json)
+    slack_json["channel"] = hook.channel_id
 
-    return work
+    headers = {'Authorization': 'Bearer ' + hook.token}
+
+    requests.post(hook.link, json=slack_json, headers=headers)
+
+    return slack_json
 
 
 @app.get("/flag/{work_id}")

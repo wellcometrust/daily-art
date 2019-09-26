@@ -4,7 +4,7 @@ from pydantic import BaseModel
 class SlackHook(BaseModel):
     link: str
     token: str = None
-    auth: str = None
+    channel_id: str = None
 
     @classmethod
     def convert_to_work_slack_post(cls, work):
