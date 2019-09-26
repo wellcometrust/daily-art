@@ -33,9 +33,9 @@ def get_random_artwork(width):
 
 
 @app.get("/random-art")
-def random_art(request: Request, width: int = 600, exclude_used: bool = False):
+def random_art(request: Request, width: int = 600):
     """ Returns a rendered web page with a random artwork """
-    work = get_random_artwork(width=width, exclude_used=exclude_used)
+    work = get_random_artwork(width=width)
 
     return templates.TemplateResponse(
         "main.html", {"work": work, "request": request}
@@ -53,9 +53,7 @@ def random_art_json(width: int = 600):
 @app.post("/random-art/slack")
 def random_art_slack(hook: SlackHook, width: int = 600):
     """ Posts a random artwork to a given slack hook """
-    work = get_random_artwork(width=width,
-                              exclude_used=True,
-                              exclude_sensitive=True)
+    work = get_random_artwork(width=width)
 
     slack_json = SlackHook.convert_to_work_slack_post(work)
     requests.post(hook.link, json=slack_json)
