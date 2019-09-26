@@ -48,7 +48,9 @@ def convert_iiif_width(uri, width="full"):
     return "https://" + "/".join(uri_end)
 
 
-def get_data(exclude_used=False, exclude_sensitive=False):
+def get_data(exclude_used=False,
+             exclude_sensitive=False,
+             only_interesting=True):
     """
     Gets data from the cached file, if it fails, downloads from the s3 bucket,
     and if the s3 bucket fails, downloads from the Wellcome Collection API.
@@ -77,7 +79,8 @@ def get_data(exclude_used=False, exclude_sensitive=False):
     works = {
         idx: work for idx, work in works.items()
         if (not work.get('used') or not exclude_used) and
-           (not work.get('sensitivity') or not exclude_sensitive)
+           (not work.get('sensitivity') or not exclude_sensitive) and
+           (work.get('interesting') or not only_interesting)
     }
 
     logger.info("Finished loading {} filtered art works.".format(len(works)))
