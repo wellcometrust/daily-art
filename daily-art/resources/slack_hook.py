@@ -2,9 +2,11 @@ from pydantic import BaseModel
 
 
 class SlackHook(BaseModel):
-    link: str
+    link: str = "https://slack.com/api/chat.postMessage"
     token: str = None
     channel_id: str = None
+    post_at: str = None
+
 
     @classmethod
     def convert_to_work_slack_post(cls, work):
