@@ -21,6 +21,9 @@ FILTERED_FILENAME = 'filtered_list_of_works.json'
 
 WELLCOME_DATASET_URL = "https://data.wellcomecollection.org/" \
                          "catalogue/v2/works.json.gz"
+
+import requests
+
 S3_DATASET_URL = "https://wellcome-collection-data.s3.eu-west-2" \
                  ".amazonaws.com/annotated-data/filtered_list_of_works.json"
 
@@ -59,19 +62,17 @@ def get_data(exclude_used=False, exclude_sensitive=False):
     """
     logger.info("Recovering dataset.")
     try:
-        f = open(join(LOCAL_PATH_TO_DATA, FILTERED_FILENAME), 'r')
-    except FileNotFoundError:
-        logger.info("Cache not found, downloading dataset from S3.")
+        with open(join(LOCAL_PATH_TO_DATA, FILTERED_FILENAME), 'r') as f:
+            works = json.load(f)
+            logger.info("Hit cache! Loading from local file.")
+    except (FileNotFoundError, json.decoder.JSONDecodeError):
+        logger.info("Cache not loaded, downloading dataset from S3.")
         try:
             works = download_data_from_annotated_s3_bucket()
         except:
             logger.info("Could not connect to S3 bucket. "
                         "Downloading dataset from Wellcome API URI")
             works = download_data_from_source()
-    else:
-        logger.info("Hit cache! Loading from local file.")
-        works = json.load(f)
-        f.close()
 
     works = {
         idx: work for idx, work in works.items()
@@ -85,13 +86,15 @@ def get_data(exclude_used=False, exclude_sensitive=False):
 
 def update_data(work_id, **kwargs):
     """ Update json file with boolean kwargs from false to true. """
+    logger.info("Updating data")
     try:
         f = open(join(LOCAL_PATH_TO_DATA, FILTERED_FILENAME), 'r')
-    except FileNotFoundError:
-        logger.info("File not found, not updating data.")
-    else:
         works = json.load(f)
         f.close()
+    except (FileNotFoundError, json.decoder.JSONDecodeError):
+        logger.info("File not loaded, downloading data first.")
+        works = get_data()
+    finally:
         logging.info("Work {} updated with {}".format(work_id, kwargs))
 
         for key, value in kwargs.items():

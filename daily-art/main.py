@@ -11,17 +11,16 @@ from .resources.data import ArtWork, get_data, update_data, convert_iiif_width
 
 from .resources.slack_hook import SlackHook
 
-app = FastAPI(title="Random Wellcome Art", port=8000)
+app = FastAPI(title="Random Wellcome Art", host="0.0.0.0", port=8000)
 app.mount("/static", StaticFiles(directory="daily-art/static"),
           name="static")
 templates = Jinja2Templates(directory="daily-art/templates")
 
+filtered_works = get_data(exclude_sensitive=True)
 
-def get_random_artwork(width, exclude_used=False, exclude_sensitive=False):
+
+def get_random_artwork(width):
     """ Utility function to get random artwork """
-    filtered_works = get_data(
-        exclude_used=exclude_used, exclude_sensitive=exclude_sensitive
-    )
 
     idx = random.randint(0, len(filtered_works) - 1)
     work_id = list(filtered_works.keys())[idx]
@@ -30,14 +29,11 @@ def get_random_artwork(width, exclude_used=False, exclude_sensitive=False):
         filtered_works[work_id]["full_image_uri"], width=width
     )
 
-    if exclude_used:
-        update_data(work_id, used=True)
-
     return filtered_works[work_id]
 
 
 @app.get("/random-art")
-def random_art(request: Request, width: int = 600, exclude_used: bool = True):
+def random_art(request: Request, width: int = 600, exclude_used: bool = False):
     """ Returns a rendered web page with a random artwork """
     work = get_random_artwork(width=width, exclude_used=exclude_used)
 
@@ -73,9 +69,9 @@ def flag_art(work_id: str, sensitivity: bool = False,
              redirect: bool = False):
     """ Flags art as sensitive or not """
 
-    update_data(work_id=work_id,
-                sensitivity=sensitivity,
-                interesting=interesting)
+    filtered_works[work_id]["sensitivity"] = sensitivity
+    filtered_works[work_id]["interesting"] = interesting
+    filtered_works[work_id]["used"] = True
 
     if redirect:
         return RedirectResponse("/random-art")
@@ -85,6 +81,5 @@ def flag_art(work_id: str, sensitivity: bool = False,
 
 @app.get("/works")
 def list_of_works():
-    """ Gets list of all works in the app"""
-
-    return get_data()
+    """ Gets list of all works currently running in the app"""
+    return filtered_works
