@@ -17,7 +17,7 @@ app.mount("/static", StaticFiles(directory="daily-art/static"),
 templates = Jinja2Templates(directory="daily-art/templates")
 
 filtered_works = get_data(
-    exclude_sensitive=True, only_interesting=True
+    exclude_sensitive=True, only_interesting=False
 )
 
 
