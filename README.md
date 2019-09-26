@@ -1,6 +1,11 @@
 # Daily Wellcome Art
 
-An API to deliver daily art from the Wellcome Collection. It pulls data from the collection api (`http://api.wellcomecollection.org/`) and exposes via an endpoint to get a random work, and an endpoint to post to a custom slack hook.
+An API to deliver random art from the Wellcome Collection. It pulls data from the collection api (`http://api.wellcomecollection.org/`) and exposes via an endpoint to get a random work, and an endpoint to post to a custom slack hook.
+
+A heroku deployment can be found in the following link:
+
+https://wc-random-art-api.herokuapp.com/random-art
+
 
 ### Quickstart
 To run standalone:
@@ -17,10 +22,22 @@ docker-compose up
 ```
 
 
-Interactive Swagger UI documentation is served on [http://localhost:8000/docs](). For a summary, see table below:
+Interactive Swagger UI documentation is served on [http://localhost:8000/docs](). For a summary, with some of the parameters, see table below:
 
 
 | Endpoint   |  Parameters | Return |
 |---|---|--------|
 | /random-art   | width: `integer` (default=300. An optional integer for the image size) | A html template with a random art work and description. |
 | /random-art/json   | width: `integer` (default=300. An optional integer for the image size) | A json with artwork information |
+| /random-art/slack | channel_id: `integer` (Id of the channel to post), token: `str` Slack Bearer token  |  POSTs a link to a slack hook |
+
+## Slack integration
+
+To integrate with your slack channel:
+
+1. [Create a slack app](https://api.slack.com/slack-apps#creating_apps).
+2. [Get the token from your slack app](https://api.slack.com/slack-apps#installing_apps).
+3. [Find the ID of the channel you want to post to](https://api.slack.com/methods/channels.list)
+4. Send a `POST` to `/random-art/slack` with a channel_id and the token.
+
+You also might want to check `main/slack_plugin.py` for scheduling daily messages for the future via a BOT.
