@@ -9,11 +9,10 @@
   <div class="container">
         <div class="row">
             <h1>{{ work.title }}</h1>
-            <p>{{ work.description | safe }}</p>
+            <p style="text-align: justify;">{{ work.description | safe }}</p>
             <div class="row">
                 <div class="one-third column">
-                    <a class="button" href="/flag/{{ work.id }}?redirect=1&sensitivity=1"
-                       style="float: right;">Sensitive</a>
+                    <a class="button" href="/flag/{{ work.id }}?redirect=1&sensitivity=1" style="float: right;">Sensitive</a>
                 </div>
                 <div class="one-third column" style="text-align: center;">
                     <a class="button" href="/flag/{{ work.id }}?redirect=1&sensitivity=0">Fine</a>
@@ -23,7 +22,7 @@
                        style="float: left;">Interesting</a>
                 </div>
             </div>
-            <img src="{{ work.full_image_uri }}" style="display:block;margin-left:auto;margin-right:auto;">
+            <img src="{{ work.full_image_uri }}" style="width:60%;display:block;margin-left:auto;margin-right:auto;">
 
         </div>
 
