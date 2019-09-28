@@ -22,8 +22,6 @@ FILTERED_FILENAME = 'filtered_list_of_works.json'
 WELLCOME_DATASET_URL = "https://data.wellcomecollection.org/" \
                          "catalogue/v2/works.json.gz"
 
-import requests
-
 S3_DATASET_URL = "https://wellcome-collection-data.s3.eu-west-2" \
                  ".amazonaws.com/annotated-data/filtered_list_of_works.json"
 

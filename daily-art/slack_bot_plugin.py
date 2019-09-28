@@ -24,8 +24,6 @@ filtered_works = {
     for key in work_keys
 }
 
-del filtered_works['w38bxm5s']
-
 if __name__ == "__main__":
 
     dt_1970 = datetime(1970, 1, 1, 0, 0, 0, tzinfo=tzutc())

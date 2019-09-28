@@ -5,4 +5,4 @@ curl --request POST \
   --header 'content-type: application/json' \
   --data '{
 	"link": "SLACK_HOOK"
-}'
+  }'
