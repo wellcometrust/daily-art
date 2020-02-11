@@ -1,5 +1,7 @@
+import os
 import random
 import requests
+import logging
 
 from fastapi import FastAPI
 from starlette.staticfiles import StaticFiles
@@ -11,6 +13,8 @@ from .resources.data import ArtWork, get_data, update_data, convert_iiif_width
 
 from .resources.slack_hook import SlackHook
 
+CHANNEL_ID = 'daily-art-beta'
+
 app = FastAPI(title="Random Wellcome Art", host="0.0.0.0", port=8000)
 app.mount("/static", StaticFiles(directory="daily-art/static"),
           name="static")
@@ -19,6 +23,9 @@ templates = Jinja2Templates(directory="daily-art/templates")
 filtered_works = get_data(
     exclude_sensitive=True, only_interesting=False, exclude_used=False
 )
+
+logger = logging.getLogger()
+logger.setLevel(logging.INFO)
 
 
 def get_random_artwork(width):
@@ -53,22 +60,25 @@ def random_art_json(width: int = 600):
 
 
 @app.post("/random-art/slack")
-def random_art_slack(hook: SlackHook, width: int = 600, work_id: str = ""):
+def random_art_slack(width: int = 600, work_id: str = ""):
     """ Posts a random artwork to a given slack hook """
     if work_id:
         work = filtered_works[work_id]
     else:
         work = get_random_artwork(width=width)
 
-    slack_json = SlackHook.convert_to_work_slack_post(work)
-    slack_json["channel"] = hook.channel_id
-    slack_json["post_at"] = hook.post_at
+    hook = os.getenv('SLACK_HOOK', '')
+    message = SlackHook()
+    slack_json = message.convert_to_work_slack_post(work)
+    slack_json["channel"] = CHANNEL_ID
+    slack_json["token"] = hook
 
-    headers = {'Authorization': 'Bearer ' + hook.token}
+    slack_request = requests.post(hook, json=slack_json)
 
-    slack_request = requests.post(hook.link, json=slack_json, headers=headers)
-
-    return slack_request.json()
+    if not slack_request:
+        return
+    else:
+        return slack_request
 
 
 @app.get("/flag/{work_id}")

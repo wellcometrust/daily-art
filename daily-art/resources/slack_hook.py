@@ -7,7 +7,6 @@ class SlackHook(BaseModel):
     channel_id: str = None
     post_at: str = None
 
-
     @classmethod
     def convert_to_work_slack_post(cls, work):
         """ Given a daily-art work JSON, converts to a slack JSON """
