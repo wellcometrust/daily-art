@@ -20,13 +20,20 @@ FILTERED_FILENAME = 'filtered_list_of_works.json'
 # pre-annotated.
 
 WELLCOME_DATASET_URL = "https://data.wellcomecollection.org/" \
-                         "catalogue/v2/works.json.gz"
+                       "catalogue/v2/works.json.gz"
 
 S3_DATASET_URL = "https://wellcome-collection-data.s3.eu-west-2" \
                  ".amazonaws.com/annotated-data/filtered_list_of_works.json"
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
+
+
+class SimilarWork(BaseModel):
+    id: str
+    title: str
+    full_image_uri: str
+    collection_url: str
 
 
 class ArtWork(BaseModel):
@@ -36,6 +43,7 @@ class ArtWork(BaseModel):
     full_image_uri: str
     collection_url: str
     contributors: List
+    similar_works: List[SimilarWork]
 
 
 def convert_iiif_width(uri, width="full"):
