@@ -10,7 +10,7 @@ from starlette.requests import Request
 from starlette.responses import RedirectResponse
 
 from .resources.data import ArtWork, get_data, update_data, convert_iiif_width
-
+from .resources.similarity import get_visually_similar_artworks
 from .resources.slack_hook import SlackHook
 
 CHANNEL_ID = 'daily-art-beta'
@@ -37,7 +37,7 @@ def get_random_artwork(width):
     filtered_works[work_id]["full_image_uri"] = convert_iiif_width(
         filtered_works[work_id]["full_image_uri"], width=width
     )
-
+    filtered_works[work_id]["similar_works"] = get_visually_similar_artworks(work_id)
     return filtered_works[work_id]
 
 
@@ -64,6 +64,7 @@ def random_art_slack(width: int = 600, work_id: str = ""):
     """ Posts a random artwork to a given slack hook """
     if work_id:
         work = filtered_works[work_id]
+        work["similar_works"] = get_visually_similar_artworks(work_id)
     else:
         work = get_random_artwork(width=width)
 
