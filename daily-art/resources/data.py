@@ -110,8 +110,7 @@ def update_data(work_id, **kwargs):
             if not works[work_id].get(key):
                 works[work_id][key] = value
 
-        with open(join(LOCAL_PATH_TO_DATA, FILTERED_FILENAME), 'w') as f:
-            json.dump(works, f)
+        save_data_locally(works)
 
 
 def download_data_from_annotated_s3_bucket():
@@ -119,10 +118,17 @@ def download_data_from_annotated_s3_bucket():
 
     works = requests.get(S3_DATASET_URL).json()
 
+    save_data_locally(works)
+
+    return works
+
+
+def save_data_locally(works):
+    """ Saves a json with works locally"""
+
     with open(join(LOCAL_PATH_TO_DATA, FILTERED_FILENAME), 'w') as f:
         json.dump(works, f)
 
-    return works
 
 
 def download_data_from_source():

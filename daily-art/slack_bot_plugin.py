@@ -15,7 +15,8 @@ CHANNEL_ID = os.environ.get('CHANNEL_ID')
 
 import random
 
-filtered_works = consolidate_with_history()
+filtered_works = consolidate_with_history(path_already_presented=
+                                          '../data/already_presented.csv')
 
 work_keys = list(filtered_works.keys())
 random.shuffle(work_keys)
