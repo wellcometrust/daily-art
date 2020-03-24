@@ -1,5 +1,6 @@
 import os
 import logging
+import requests
 
 import csv
 import random
@@ -63,5 +64,11 @@ def consolidate_with_history(path_already_presented, exclude_sensitive=True,
         save_data_locally(filtered_works)
 
     return filtered_works
+
+
+def refresh_local_file(host="localhost", port=8000, protocol="http"):
+    """ Queries the API annotations and saves the local file """
+    works = requests.get(f"{protocol}://{host}:{port}/works").json()
+    save_data_locally(works)
 
 
