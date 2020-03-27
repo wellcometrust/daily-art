@@ -89,6 +89,10 @@ def get_data(exclude_used=False,
            (work.get('interesting') or not only_interesting)
     }
 
+    if not exclude_used:
+        for id in works.keys():
+            works[id]["used"] = False
+
     logger.info("Finished loading {} filtered art works.".format(len(works)))
     return works
 

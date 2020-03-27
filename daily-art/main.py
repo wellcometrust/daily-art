@@ -30,15 +30,20 @@ logger.setLevel(logging.INFO)
 
 def get_random_artwork(width):
     """ Utility function to get random artwork """
+    non_used_works = {key: value for key, value in filtered_works.items()
+                      if not value["used"]}
 
-    idx = random.randint(0, len(filtered_works) - 1)
-    work_id = list(filtered_works.keys())[idx]
+    app.logger.info(f"Still {len(non_used_works)} remaining")
 
-    filtered_works[work_id]["full_image_uri"] = convert_iiif_width(
-        filtered_works[work_id]["full_image_uri"], width=width
+    idx = random.randint(0, len(non_used_works) - 1)
+    work_id = list(non_used_works.keys())[idx]
+
+    non_used_works[work_id]["full_image_uri"] = convert_iiif_width(
+        non_used_works[work_id]["full_image_uri"], width=width
     )
-    filtered_works[work_id]["similar_works"] = get_visually_similar_artworks(work_id)
-    return filtered_works[work_id]
+    non_used_works[work_id]["similar_works"] = get_visually_similar_artworks(work_id)
+
+    return non_used_works[work_id]
 
 
 @app.get("/random-art")
