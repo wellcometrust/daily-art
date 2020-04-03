@@ -1,0 +1,4002 @@
+{
+    "0": {
+        "class_name": "tench, Tinca tinca",
+        "emoji": "🎣"
+    },
+    "1": {
+        "class_name": "goldfish, Carassius auratus",
+        "emoji": "🐠"
+    },
+    "2": {
+        "class_name": "great white shark, white shark, man-eater, man-eating shark, Carcharodon carcharias",
+        "emoji": "🦈"
+    },
+    "3": {
+        "class_name": "tiger shark, Galeocerdo cuvieri",
+        "emoji": "🦈"
+    },
+    "4": {
+        "class_name": "hammerhead, hammerhead shark",
+        "emoji": "🦈"
+    },
+    "5": {
+        "class_name": "electric ray, crampfish, numbfish, torpedo",
+        "emoji": "🐟"
+    },
+    "6": {
+        "class_name": "stingray",
+        "emoji": "🐟"
+    },
+    "7": {
+        "class_name": "cock",
+        "emoji": "🐓"
+    },
+    "8": {
+        "class_name": "hen",
+        "emoji": "🐔"
+    },
+    "9": {
+        "class_name": "ostrich, Struthio camelus",
+        "emoji": "🐓"
+    },
+    "10": {
+        "class_name": "brambling, Fringilla montifringilla",
+        "emoji": "🐦"
+    },
+    "11": {
+        "class_name": "goldfinch, Carduelis carduelis",
+        "emoji": "🐦"
+    },
+    "12": {
+        "class_name": "house finch, linnet, Carpodacus mexicanus",
+        "emoji": "🐤"
+    },
+    "13": {
+        "class_name": "junco, snowbird",
+        "emoji": "🕊️"
+    },
+    "14": {
+        "class_name": "indigo bunting, indigo finch, indigo bird, Passerina cyanea",
+        "emoji": "🐦"
+    },
+    "15": {
+        "class_name": "robin, American robin, Turdus migratorius",
+        "emoji": "🐦"
+    },
+    "16": {
+        "class_name": "bulbul",
+        "emoji": "🦜"
+    },
+    "17": {
+        "class_name": "jay",
+        "emoji": "🐦"
+    },
+    "18": {
+        "class_name": "magpie",
+        "emoji": "🐧"
+    },
+    "19": {
+        "class_name": "chickadee",
+        "emoji": "🐤"
+    },
+    "20": {
+        "class_name": "water ouzel, dipper",
+        "emoji": "🦆"
+    },
+    "21": {
+        "class_name": "kite",
+        "emoji": "🦅"
+    },
+    "22": {
+        "class_name": "bald eagle, American eagle, Haliaeetus leucocephalus",
+        "emoji": "🦅"
+    },
+    "23": {
+        "class_name": "vulture",
+        "emoji": "🦅"
+    },
+    "24": {
+        "class_name": "great grey owl, great gray owl, Strix nebulosa",
+        "emoji": "🦉"
+    },
+    "25": {
+        "class_name": "European fire salamander, Salamandra salamandra",
+        "emoji": "🦎"
+    },
+    "26": {
+        "class_name": "common newt, Triturus vulgaris",
+        "emoji": "🦎"
+    },
+    "27": {
+        "class_name": "eft",
+        "emoji": "🦎"
+    },
+    "28": {
+        "class_name": "spotted salamander, Ambystoma maculatum",
+        "emoji": "🦎"
+    },
+    "29": {
+        "class_name": "axolotl, mud puppy, Ambystoma mexicanum",
+        "emoji": "🦎"
+    },
+    "30": {
+        "class_name": "bullfrog, Rana catesbeiana",
+        "emoji": "🐸"
+    },
+    "31": {
+        "class_name": "tree frog, tree-frog",
+        "emoji": "🐸"
+    },
+    "32": {
+        "class_name": "tailed frog, bell toad, ribbed toad, tailed toad, Ascaphus trui",
+        "emoji": "🐸"
+    },
+    "33": {
+        "class_name": "loggerhead, loggerhead turtle, Caretta caretta",
+        "emoji": "🐢"
+    },
+    "34": {
+        "class_name": "leatherback turtle, leatherback, leathery turtle, Dermochelys coriacea",
+        "emoji": "🐢"
+    },
+    "35": {
+        "class_name": "mud turtle",
+        "emoji": "🐢"
+    },
+    "36": {
+        "class_name": "terrapin",
+        "emoji": "🐢"
+    },
+    "37": {
+        "class_name": "box turtle, box tortoise",
+        "emoji": "🐢"
+    },
+    "38": {
+        "class_name": "banded gecko",
+        "emoji": "🦎"
+    },
+    "39": {
+        "class_name": "common iguana, iguana, Iguana iguana",
+        "emoji": "🦎"
+    },
+    "40": {
+        "class_name": "American chameleon, anole, Anolis carolinensis",
+        "emoji": "🦎"
+    },
+    "41": {
+        "class_name": "whiptail, whiptail lizard",
+        "emoji": "🦎"
+    },
+    "42": {
+        "class_name": "agama",
+        "emoji": "🦎"
+    },
+    "43": {
+        "class_name": "frilled lizard, Chlamydosaurus kingi",
+        "emoji": "🦎"
+    },
+    "44": {
+        "class_name": "alligator lizard",
+        "emoji": "🐊"
+    },
+    "45": {
+        "class_name": "Gila monster, Heloderma suspectum",
+        "emoji": "🦎"
+    },
+    "46": {
+        "class_name": "green lizard, Lacerta viridis",
+        "emoji": "🦎"
+    },
+    "47": {
+        "class_name": "African chameleon, Chamaeleo chamaeleon",
+        "emoji": "🦎"
+    },
+    "48": {
+        "class_name": "Komodo dragon, Komodo lizard, dragon lizard, giant lizard, Varanus komodoensis",
+        "emoji": "🐊"
+    },
+    "49": {
+        "class_name": "African crocodile, Nile crocodile, Crocodylus niloticus",
+        "emoji": "🐊"
+    },
+    "50": {
+        "class_name": "American alligator, Alligator mississipiensis",
+        "emoji": "🐊"
+    },
+    "51": {
+        "class_name": "triceratops",
+        "emoji": "🦖"
+    },
+    "52": {
+        "class_name": "thunder snake, worm snake, Carphophis amoenus",
+        "emoji": "🐍"
+    },
+    "53": {
+        "class_name": "ringneck snake, ring-necked snake, ring snake",
+        "emoji": "🐍"
+    },
+    "54": {
+        "class_name": "hognose snake, puff adder, sand viper",
+        "emoji": "🐍"
+    },
+    "55": {
+        "class_name": "green snake, grass snake",
+        "emoji": "🐍"
+    },
+    "56": {
+        "class_name": "king snake, kingsnake",
+        "emoji": "🐍"
+    },
+    "57": {
+        "class_name": "garter snake, grass snake",
+        "emoji": "🐍"
+    },
+    "58": {
+        "class_name": "water snake",
+        "emoji": "🐍"
+    },
+    "59": {
+        "class_name": "vine snake",
+        "emoji": "🐍"
+    },
+    "60": {
+        "class_name": "night snake, Hypsiglena torquata",
+        "emoji": "🐍"
+    },
+    "61": {
+        "class_name": "boa constrictor, Constrictor constrictor",
+        "emoji": "🐍"
+    },
+    "62": {
+        "class_name": "rock python, rock snake, Python sebae",
+        "emoji": "🐍"
+    },
+    "63": {
+        "class_name": "Indian cobra, Naja naja",
+        "emoji": "🐍"
+    },
+    "64": {
+        "class_name": "green mamba",
+        "emoji": "🐍"
+    },
+    "65": {
+        "class_name": "sea snake",
+        "emoji": "🐍"
+    },
+    "66": {
+        "class_name": "horned viper, cerastes, sand viper, horned asp, Cerastes cornutus",
+        "emoji": "🐍"
+    },
+    "67": {
+        "class_name": "diamondback, diamondback rattlesnake, Crotalus adamanteus",
+        "emoji": "🐍"
+    },
+    "68": {
+        "class_name": "sidewinder, horned rattlesnake, Crotalus cerastes",
+        "emoji": "🐍"
+    },
+    "69": {
+        "class_name": "trilobite",
+        "emoji": "🐛"
+    },
+    "70": {
+        "class_name": "harvestman, daddy longlegs, Phalangium opilio",
+        "emoji": "🕷️"
+    },
+    "71": {
+        "class_name": "scorpion",
+        "emoji": "🦂"
+    },
+    "72": {
+        "class_name": "black and gold garden spider, Argiope aurantia",
+        "emoji": "🕷️"
+    },
+    "73": {
+        "class_name": "barn spider, Araneus cavaticus",
+        "emoji": "🕷️"
+    },
+    "74": {
+        "class_name": "garden spider, Aranea diademata",
+        "emoji": "🕷️"
+    },
+    "75": {
+        "class_name": "black widow, Latrodectus mactans",
+        "emoji": "🕷️"
+    },
+    "76": {
+        "class_name": "tarantula",
+        "emoji": "🕷️"
+    },
+    "77": {
+        "class_name": "wolf spider, hunting spider",
+        "emoji": "🕷️"
+    },
+    "78": {
+        "class_name": "tick",
+        "emoji": "🕷️"
+    },
+    "79": {
+        "class_name": "centipede",
+        "emoji": "🐛"
+    },
+    "80": {
+        "class_name": "black grouse",
+        "emoji": "🦃"
+    },
+    "81": {
+        "class_name": "ptarmigan",
+        "emoji": "🐓"
+    },
+    "82": {
+        "class_name": "ruffed grouse, partridge, Bonasa umbellus",
+        "emoji": "🦃"
+    },
+    "83": {
+        "class_name": "prairie chicken, prairie grouse, prairie fowl",
+        "emoji": "🦃"
+    },
+    "84": {
+        "class_name": "peacock",
+        "emoji": "🦚"
+    },
+    "85": {
+        "class_name": "quail",
+        "emoji": "🦃"
+    },
+    "86": {
+        "class_name": "partridge",
+        "emoji": "🐓"
+    },
+    "87": {
+        "class_name": "African grey, African gray, Psittacus erithacus",
+        "emoji": "🦜"
+    },
+    "88": {
+        "class_name": "macaw",
+        "emoji": "🦜"
+    },
+    "89": {
+        "class_name": "sulphur-crested cockatoo, Kakatoe galerita, Cacatua galerita",
+        "emoji": "🦜"
+    },
+    "90": {
+        "class_name": "lorikeet",
+        "emoji": "🦜"
+    },
+    "91": {
+        "class_name": "coucal",
+        "emoji": "🦜"
+    },
+    "92": {
+        "class_name": "bee eater",
+        "emoji": "🦜"
+    },
+    "93": {
+        "class_name": "hornbill",
+        "emoji": "🦜"
+    },
+    "94": {
+        "class_name": "hummingbird",
+        "emoji": "🦜"
+    },
+    "95": {
+        "class_name": "jacamar",
+        "emoji": "🦜"
+    },
+    "96": {
+        "class_name": "toucan",
+        "emoji": "🦜"
+    },
+    "97": {
+        "class_name": "drake",
+        "emoji": "🦜"
+    },
+    "98": {
+        "class_name": "red-breasted merganser, Mergus serrator",
+        "emoji": "🦜"
+    },
+    "99": {
+        "class_name": "goose",
+        "emoji": "🦢"
+    },
+    "100": {
+        "class_name": "black swan, Cygnus atratus",
+        "emoji": "🦢"
+    },
+    "101": {
+        "class_name": "tusker",
+        "emoji": "🐘"
+    },
+    "102": {
+        "class_name": "echidna, spiny anteater, anteater",
+        "emoji": "🦔"
+    },
+    "103": {
+        "class_name": "platypus, duckbill, duckbilled platypus, duck-billed platypus, Ornithorhynchus anatinus",
+        "emoji": "🦆"
+    },
+    "104": {
+        "class_name": "wallaby, brush kangaroo",
+        "emoji": "🦘"
+    },
+    "105": {
+        "class_name": "koala, koala bear, kangaroo bear, native bear, Phascolarctos cinereus",
+        "emoji": "🐨"
+    },
+    "106": {
+        "class_name": "wombat",
+        "emoji": "🐨"
+    },
+    "107": {
+        "class_name": "jellyfish",
+        "emoji": "🐙"
+    },
+    "108": {
+        "class_name": "sea anemone, anemone",
+        "emoji": "🌊"
+    },
+    "109": {
+        "class_name": "brain coral",
+        "emoji": "🐚"
+    },
+    "110": {
+        "class_name": "flatworm, platyhelminth",
+        "emoji": "🐛"
+    },
+    "111": {
+        "class_name": "nematode, nematode worm, roundworm",
+        "emoji": "🐛"
+    },
+    "112": {
+        "class_name": "conch",
+        "emoji": "🐚"
+    },
+    "113": {
+        "class_name": "snail",
+        "emoji": "🐌"
+    },
+    "114": {
+        "class_name": "slug",
+        "emoji": "🐌"
+    },
+    "115": {
+        "class_name": "sea slug, nudibranch",
+        "emoji": "🐛"
+    },
+    "116": {
+        "class_name": "chiton, coat-of-mail shell, sea cradle, polyplacophore",
+        "emoji": "🐛"
+    },
+    "117": {
+        "class_name": "chambered nautilus, pearly nautilus, nautilus",
+        "emoji": "🐚"
+    },
+    "118": {
+        "class_name": "Dungeness crab, Cancer magister",
+        "emoji": "🦀"
+    },
+    "119": {
+        "class_name": "rock crab, Cancer irroratus",
+        "emoji": "🦀"
+    },
+    "120": {
+        "class_name": "fiddler crab",
+        "emoji": "🦀"
+    },
+    "121": {
+        "class_name": "king crab, Alaska crab, Alaskan king crab, Alaska king crab, Paralithodes camtschatica",
+        "emoji": "🦀"
+    },
+    "122": {
+        "class_name": "American lobster, Northern lobster, Maine lobster, Homarus americanus",
+        "emoji": "🦞"
+    },
+    "123": {
+        "class_name": "spiny lobster, langouste, rock lobster, crawfish, crayfish, sea crawfish",
+        "emoji": "🦞"
+    },
+    "124": {
+        "class_name": "crayfish, crawfish, crawdad, crawdaddy",
+        "emoji": "🦞"
+    },
+    "125": {
+        "class_name": "hermit crab",
+        "emoji": "🦀"
+    },
+    "126": {
+        "class_name": "isopod",
+        "emoji": "🦞"
+    },
+    "127": {
+        "class_name": "white stork, Ciconia ciconia",
+        "emoji": "🦢"
+    },
+    "128": {
+        "class_name": "black stork, Ciconia nigra",
+        "emoji": "🦢"
+    },
+    "129": {
+        "class_name": "spoonbill",
+        "emoji": "🦢"
+    },
+    "130": {
+        "class_name": "flamingo",
+        "emoji": "🐓"
+    },
+    "131": {
+        "class_name": "little blue heron, Egretta caerulea",
+        "emoji": "🐦"
+    },
+    "132": {
+        "class_name": "American egret, great white heron, Egretta albus",
+        "emoji": "🐦"
+    },
+    "133": {
+        "class_name": "bittern",
+        "emoji": "🐦"
+    },
+    "134": {
+        "class_name": "crane",
+        "emoji": "🦢"
+    },
+    "135": {
+        "class_name": "limpkin, Aramus pictus",
+        "emoji": "🐦"
+    },
+    "136": {
+        "class_name": "European gallinule, Porphyrio porphyrio",
+        "emoji": "🐦"
+    },
+    "137": {
+        "class_name": "American coot, marsh hen, mud hen, water hen, Fulica americana",
+        "emoji": "🐦"
+    },
+    "138": {
+        "class_name": "bustard",
+        "emoji": "🐦"
+    },
+    "139": {
+        "class_name": "ruddy turnstone, Arenaria interpres",
+        "emoji": "🐦"
+    },
+    "140": {
+        "class_name": "red-backed sandpiper, dunlin, Erolia alpina",
+        "emoji": "🐦"
+    },
+    "141": {
+        "class_name": "redshank, Tringa totanus",
+        "emoji": "🐦"
+    },
+    "142": {
+        "class_name": "dowitcher",
+        "emoji": "🐦"
+    },
+    "143": {
+        "class_name": "oystercatcher, oyster catcher",
+        "emoji": "🐦"
+    },
+    "144": {
+        "class_name": "pelican",
+        "emoji": "🐦"
+    },
+    "145": {
+        "class_name": "king penguin, Aptenodytes patagonica",
+        "emoji": "🐓"
+    },
+    "146": {
+        "class_name": "albatross, mollymawk",
+        "emoji": "🦢"
+    },
+    "147": {
+        "class_name": "grey whale, gray whale, devilfish, Eschrichtius gibbosus, Eschrichtius robustus",
+        "emoji": "🐋"
+    },
+    "148": {
+        "class_name": "killer whale, killer, orca, grampus, sea wolf, Orcinus orca",
+        "emoji": "🐳"
+    },
+    "149": {
+        "class_name": "dugong, Dugong dugon",
+        "emoji": "🐳"
+    },
+    "150": {
+        "class_name": "sea lion",
+        "emoji": "🐕"
+    },
+    "151": {
+        "class_name": "Chihuahua",
+        "emoji": "🐕"
+    },
+    "152": {
+        "class_name": "Japanese spaniel",
+        "emoji": "🐕"
+    },
+    "153": {
+        "class_name": "Maltese dog, Maltese terrier, Maltese",
+        "emoji": "🐕"
+    },
+    "154": {
+        "class_name": "Pekinese, Pekingese, Peke",
+        "emoji": "🐕"
+    },
+    "155": {
+        "class_name": "Shih-Tzu",
+        "emoji": "🐕"
+    },
+    "156": {
+        "class_name": "Blenheim spaniel",
+        "emoji": "🐶"
+    },
+    "157": {
+        "class_name": "papillon",
+        "emoji": "🐶"
+    },
+    "158": {
+        "class_name": "toy terrier",
+        "emoji": "🐶"
+    },
+    "159": {
+        "class_name": "Rhodesian ridgeback",
+        "emoji": "🐕"
+    },
+    "160": {
+        "class_name": "Afghan hound, Afghan",
+        "emoji": "🐕"
+    },
+    "161": {
+        "class_name": "basset, basset hound",
+        "emoji": "🐶"
+    },
+    "162": {
+        "class_name": "beagle",
+        "emoji": "🐶"
+    },
+    "163": {
+        "class_name": "bloodhound, sleuthhound",
+        "emoji": "🐶"
+    },
+    "164": {
+        "class_name": "bluetick",
+        "emoji": "🐕"
+    },
+    "165": {
+        "class_name": "black-and-tan coonhound",
+        "emoji": "🐕"
+    },
+    "166": {
+        "class_name": "Walker hound, Walker foxhound",
+        "emoji": "🐕"
+    },
+    "167": {
+        "class_name": "English foxhound",
+        "emoji": "v"
+    },
+    "168": {
+        "class_name": "redbone",
+        "emoji": "🐕"
+    },
+    "169": {
+        "class_name": "borzoi, Russian wolfhound",
+        "emoji": "🐕"
+    },
+    "170": {
+        "class_name": "Irish wolfhound",
+        "emoji": "🐕"
+    },
+    "171": {
+        "class_name": "Italian greyhound",
+        "emoji": "🐕"
+    },
+    "172": {
+        "class_name": "whippet",
+        "emoji": "🐕"
+    },
+    "173": {
+        "class_name": "Ibizan hound, Ibizan Podenco",
+        "emoji": "🐕"
+    },
+    "174": {
+        "class_name": "Norwegian elkhound, elkhound",
+        "emoji": "🐕"
+    },
+    "175": {
+        "class_name": "otterhound, otter hound",
+        "emoji": "🐕"
+    },
+    "176": {
+        "class_name": "Saluki, gazelle hound",
+        "emoji": "🐕"
+    },
+    "177": {
+        "class_name": "Scottish deerhound, deerhound",
+        "emoji": "🐕"
+    },
+    "178": {
+        "class_name": "Weimaraner",
+        "emoji": "🐕"
+    },
+    "179": {
+        "class_name": "Staffordshire bullterrier, Staffordshire bull terrier",
+        "emoji": "🐕"
+    },
+    "180": {
+        "class_name": "American Staffordshire terrier, Staffordshire terrier, American pit bull terrier, pit bull terrier",
+        "emoji": "🐕"
+    },
+    "181": {
+        "class_name": "Bedlington terrier",
+        "emoji": "🐕"
+    },
+    "182": {
+        "class_name": "Border terrier",
+        "emoji": "🐕"
+    },
+    "183": {
+        "class_name": "Kerry blue terrier",
+        "emoji": "🐕"
+    },
+    "184": {
+        "class_name": "Irish terrier",
+        "emoji": "🐕"
+    },
+    "185": {
+        "class_name": "Norfolk terrier",
+        "emoji": "🐕"
+    },
+    "186": {
+        "class_name": "Norwich terrier",
+        "emoji": "🐕"
+    },
+    "187": {
+        "class_name": "Yorkshire terrier",
+        "emoji": "🐕"
+    },
+    "188": {
+        "class_name": "wire-haired fox terrier",
+        "emoji": "🐕"
+    },
+    "189": {
+        "class_name": "Lakeland terrier",
+        "emoji": "🐕"
+    },
+    "190": {
+        "class_name": "Sealyham terrier, Sealyham",
+        "emoji": "🐕"
+    },
+    "191": {
+        "class_name": "Airedale, Airedale terrier",
+        "emoji": "🐕"
+    },
+    "192": {
+        "class_name": "cairn, cairn terrier",
+        "emoji": "🐕"
+    },
+    "193": {
+        "class_name": "Australian terrier",
+        "emoji": "🐕"
+    },
+    "194": {
+        "class_name": "Dandie Dinmont, Dandie Dinmont terrier",
+        "emoji": "🐕"
+    },
+    "195": {
+        "class_name": "Boston bull, Boston terrier",
+        "emoji": "🐕"
+    },
+    "196": {
+        "class_name": "miniature schnauzer",
+        "emoji": "🐕"
+    },
+    "197": {
+        "class_name": "giant schnauzer",
+        "emoji": "🐕"
+    },
+    "198": {
+        "class_name": "standard schnauzer",
+        "emoji": "🐕"
+    },
+    "199": {
+        "class_name": "Scotch terrier, Scottish terrier, Scottie",
+        "emoji": "🐕"
+    },
+    "200": {
+        "class_name": "Tibetan terrier, chrysanthemum dog",
+        "emoji": "🐕"
+    },
+    "201": {
+        "class_name": "silky terrier, Sydney silky",
+        "emoji": "🐕"
+    },
+    "202": {
+        "class_name": "soft-coated wheaten terrier",
+        "emoji": "🐕"
+    },
+    "203": {
+        "class_name": "West Highland white terrier",
+        "emoji": "🐕"
+    },
+    "204": {
+        "class_name": "Lhasa, Lhasa apso",
+        "emoji": "🐕"
+    },
+    "205": {
+        "class_name": "flat-coated retriever",
+        "emoji": "🐕"
+    },
+    "206": {
+        "class_name": "curly-coated retriever",
+        "emoji": "🐕"
+    },
+    "207": {
+        "class_name": "golden retriever",
+        "emoji": "🐕"
+    },
+    "208": {
+        "class_name": "Labrador retriever",
+        "emoji": "🐕"
+    },
+    "209": {
+        "class_name": "Chesapeake Bay retriever",
+        "emoji": "🐕"
+    },
+    "210": {
+        "class_name": "German short-haired pointer",
+        "emoji": "🐕"
+    },
+    "211": {
+        "class_name": "vizsla, Hungarian pointer",
+        "emoji": "🐕"
+    },
+    "212": {
+        "class_name": "English setter",
+        "emoji": "🐕"
+    },
+    "213": {
+        "class_name": "Irish setter, red setter",
+        "emoji": "🐕"
+    },
+    "214": {
+        "class_name": "Gordon setter",
+        "emoji": "🐕"
+    },
+    "215": {
+        "class_name": "Brittany spaniel",
+        "emoji": "🐕"
+    },
+    "216": {
+        "class_name": "clumber, clumber spaniel",
+        "emoji": "🐕"
+    },
+    "217": {
+        "class_name": "English springer, English springer spaniel",
+        "emoji": "🐕"
+    },
+    "218": {
+        "class_name": "Welsh springer spaniel",
+        "emoji": "🐕"
+    },
+    "219": {
+        "class_name": "cocker spaniel, English cocker spaniel, cocker",
+        "emoji": "🐕"
+    },
+    "220": {
+        "class_name": "Sussex spaniel",
+        "emoji": "🐕"
+    },
+    "221": {
+        "class_name": "Irish water spaniel",
+        "emoji": "🐕"
+    },
+    "222": {
+        "class_name": "kuvasz",
+        "emoji": "🐕"
+    },
+    "223": {
+        "class_name": "schipperke",
+        "emoji": "🐕"
+    },
+    "224": {
+        "class_name": "groenendael",
+        "emoji": "🐕"
+    },
+    "225": {
+        "class_name": "malinois",
+        "emoji": "🐕"
+    },
+    "226": {
+        "class_name": "briard",
+        "emoji": "🐕"
+    },
+    "227": {
+        "class_name": "kelpie",
+        "emoji": "🐕"
+    },
+    "228": {
+        "class_name": "komondor",
+        "emoji": "🐕"
+    },
+    "229": {
+        "class_name": "Old English sheepdog, bobtail",
+        "emoji": "🐕"
+    },
+    "230": {
+        "class_name": "Shetland sheepdog, Shetland sheep dog, Shetland",
+        "emoji": "🐕"
+    },
+    "231": {
+        "class_name": "collie",
+        "emoji": "🐕"
+    },
+    "232": {
+        "class_name": "Border collie",
+        "emoji": "🐕"
+    },
+    "233": {
+        "class_name": "Bouvier des Flandres, Bouviers des Flandres",
+        "emoji": "🐕"
+    },
+    "234": {
+        "class_name": "Rottweiler",
+        "emoji": "🐕"
+    },
+    "235": {
+        "class_name": "German shepherd, German shepherd dog, German police dog, alsatian",
+        "emoji": "🐕"
+    },
+    "236": {
+        "class_name": "Doberman, Doberman pinscher",
+        "emoji": "🐕"
+    },
+    "237": {
+        "class_name": "miniature pinscher",
+        "emoji": "🐕"
+    },
+    "238": {
+        "class_name": "Greater Swiss Mountain dog",
+        "emoji": "🐕"
+    },
+    "239": {
+        "class_name": "Bernese mountain dog",
+        "emoji": "🐶"
+    },
+    "240": {
+        "class_name": "Appenzeller",
+        "emoji": "🐶"
+    },
+    "241": {
+        "class_name": "EntleBucher",
+        "emoji": "🐶"
+    },
+    "242": {
+        "class_name": "boxer",
+        "emoji": "🐶"
+    },
+    "243": {
+        "class_name": "bull mastiff",
+        "emoji": "🐶"
+    },
+    "244": {
+        "class_name": "Tibetan mastiff",
+        "emoji": "🐶"
+    },
+    "245": {
+        "class_name": "French bulldog",
+        "emoji": "🐶"
+    },
+    "246": {
+        "class_name": "Great Dane",
+        "emoji": "🐶"
+    },
+    "247": {
+        "class_name": "Saint Bernard, St Bernard",
+        "emoji": "🐶"
+    },
+    "248": {
+        "class_name": "Eskimo dog, husky",
+        "emoji": "🐶"
+    },
+    "249": {
+        "class_name": "malamute, malemute, Alaskan malamute",
+        "emoji": "🐶"
+    },
+    "250": {
+        "class_name": "Siberian husky",
+        "emoji": "🐶"
+    },
+    "251": {
+        "class_name": "dalmatian, coach dog, carriage dog",
+        "emoji": "🐶"
+    },
+    "252": {
+        "class_name": "affenpinscher, monkey pinscher, monkey dog",
+        "emoji": "🐶"
+    },
+    "253": {
+        "class_name": "basenji",
+        "emoji": "🐶"
+    },
+    "254": {
+        "class_name": "pug, pug-dog",
+        "emoji": "🐶"
+    },
+    "255": {
+        "class_name": "Leonberg",
+        "emoji": "🐶"
+    },
+    "256": {
+        "class_name": "Newfoundland, Newfoundland dog",
+        "emoji": "🐶"
+    },
+    "257": {
+        "class_name": "Great Pyrenees",
+        "emoji": "🐶"
+    },
+    "258": {
+        "class_name": "Samoyed, Samoyede",
+        "emoji": "🐶"
+    },
+    "259": {
+        "class_name": "Pomeranian",
+        "emoji": "🐶"
+    },
+    "260": {
+        "class_name": "chow, chow chow",
+        "emoji": "🐶"
+    },
+    "261": {
+        "class_name": "keeshond",
+        "emoji": "🐶"
+    },
+    "262": {
+        "class_name": "Brabancon griffon",
+        "emoji": "🐶"
+    },
+    "263": {
+        "class_name": "Pembroke, Pembroke Welsh corgi",
+        "emoji": "🐶"
+    },
+    "264": {
+        "class_name": "Cardigan, Cardigan Welsh corgi",
+        "emoji": "🐶"
+    },
+    "265": {
+        "class_name": "toy poodle",
+        "emoji": "🐩"
+    },
+    "266": {
+        "class_name": "miniature poodle",
+        "emoji": "🐩"
+    },
+    "267": {
+        "class_name": "standard poodle",
+        "emoji": "🐩"
+    },
+    "268": {
+        "class_name": "Mexican hairless",
+        "emoji": "🐩"
+    },
+    "269": {
+        "class_name": "timber wolf, grey wolf, gray wolf, Canis lupus",
+        "emoji": "🐺"
+    },
+    "270": {
+        "class_name": "white wolf, Arctic wolf, Canis lupus tundrarum",
+        "emoji": "🐺"
+    },
+    "271": {
+        "class_name": "red wolf, maned wolf, Canis rufus, Canis niger",
+        "emoji": "🐺"
+    },
+    "272": {
+        "class_name": "coyote, prairie wolf, brush wolf, Canis latrans",
+        "emoji": "🐺"
+    },
+    "273": {
+        "class_name": "dingo, warrigal, warragal, Canis dingo",
+        "emoji": "🐺"
+    },
+    "274": {
+        "class_name": "dhole, Cuon alpinus",
+        "emoji": "🐺"
+    },
+    "275": {
+        "class_name": "African hunting dog, hyena dog, Cape hunting dog, Lycaon pictus",
+        "emoji": "🐺"
+    },
+    "276": {
+        "class_name": "hyena, hyaena",
+        "emoji": "🐺"
+    },
+    "277": {
+        "class_name": "red fox, Vulpes vulpes",
+        "emoji": "🦊"
+    },
+    "278": {
+        "class_name": "kit fox, Vulpes macrotis",
+        "emoji": "🦊"
+    },
+    "279": {
+        "class_name": "Arctic fox, white fox, Alopex lagopus",
+        "emoji": "🦊"
+    },
+    "280": {
+        "class_name": "grey fox, gray fox, Urocyon cinereoargenteus",
+        "emoji": "🦊"
+    },
+    "281": {
+        "class_name": "tabby, tabby cat",
+        "emoji": "🐱"
+    },
+    "282": {
+        "class_name": "tiger cat",
+        "emoji": "🐯"
+    },
+    "283": {
+        "class_name": "Persian cat",
+        "emoji": "🐈"
+    },
+    "284": {
+        "class_name": "Siamese cat, Siamese",
+        "emoji": "🐈"
+    },
+    "285": {
+        "class_name": "Egyptian cat",
+        "emoji": "🐈"
+    },
+    "286": {
+        "class_name": "cougar, puma, catamount, mountain lion, painter, panther, Felis concolor",
+        "emoji": "🐈"
+    },
+    "287": {
+        "class_name": "lynx, catamount",
+        "emoji": "🐆"
+    },
+    "288": {
+        "class_name": "leopard, Panthera pardus",
+        "emoji": "🐆"
+    },
+    "289": {
+        "class_name": "snow leopard, ounce, Panthera uncia",
+        "emoji": "🐆"
+    },
+    "290": {
+        "class_name": "jaguar, panther, Panthera onca, Felis onca",
+        "emoji": "🐆"
+    },
+    "291": {
+        "class_name": "lion, king of beasts, Panthera leo",
+        "emoji": "🦁"
+    },
+    "292": {
+        "class_name": "tiger, Panthera tigris",
+        "emoji": "🐅"
+    },
+    "293": {
+        "class_name": "cheetah, chetah, Acinonyx jubatus",
+        "emoji": "🐆"
+    },
+    "294": {
+        "class_name": "brown bear, bruin, Ursus arctos",
+        "emoji": "🐻"
+    },
+    "295": {
+        "class_name": "American black bear, black bear, Ursus americanus, Euarctos americanus",
+        "emoji": "🐻"
+    },
+    "296": {
+        "class_name": "ice bear, polar bear, Ursus Maritimus, Thalarctos maritimus",
+        "emoji": "🐻"
+    },
+    "297": {
+        "class_name": "sloth bear, Melursus ursinus, Ursus ursinus",
+        "emoji": "🐻"
+    },
+    "298": {
+        "class_name": "mongoose",
+        "emoji": "🦝"
+    },
+    "299": {
+        "class_name": "meerkat, mierkat",
+        "emoji": "🦝"
+    },
+    "300": {
+        "class_name": "tiger beetle",
+        "emoji": "🐞"
+    },
+    "301": {
+        "class_name": "ladybug, ladybeetle, lady beetle, ladybird, ladybird beetle",
+        "emoji": "🐞"
+    },
+    "302": {
+        "class_name": "ground beetle, carabid beetle",
+        "emoji": "🐞"
+    },
+    "303": {
+        "class_name": "long-horned beetle, longicorn, longicorn beetle",
+        "emoji": "🐞"
+    },
+    "304": {
+        "class_name": "leaf beetle, chrysomelid",
+        "emoji": "🐞"
+    },
+    "305": {
+        "class_name": "dung beetle",
+        "emoji": "🐞"
+    },
+    "306": {
+        "class_name": "rhinoceros beetle",
+        "emoji": "🐞"
+    },
+    "307": {
+        "class_name": "weevil",
+        "emoji": "🦟"
+    },
+    "308": {
+        "class_name": "fly",
+        "emoji": "🦟"
+    },
+    "309": {
+        "class_name": "bee",
+        "emoji": "🐝"
+    },
+    "310": {
+        "class_name": "ant, emmet, pismire",
+        "emoji": "🐜"
+    },
+    "311": {
+        "class_name": "grasshopper, hopper",
+        "emoji": "🦗"
+    },
+    "312": {
+        "class_name": "cricket",
+        "emoji": "🦗"
+    },
+    "313": {
+        "class_name": "walking stick, walkingstick, stick insect",
+        "emoji": "🦗"
+    },
+    "314": {
+        "class_name": "cockroach, roach",
+        "emoji": "🦗"
+    },
+    "315": {
+        "class_name": "mantis, mantid",
+        "emoji": "🦗"
+    },
+    "316": {
+        "class_name": "cicada, cicala",
+        "emoji": "🦗"
+    },
+    "317": {
+        "class_name": "leafhopper",
+        "emoji": "🦗"
+    },
+    "318": {
+        "class_name": "lacewing, lacewing fly",
+        "emoji": "🦟"
+    },
+    "319": {
+        "class_name": "dragonfly, darning needle, devil's darning needle, sewing needle, snake feeder, snake doctor, mosquito hawk, skeeter hawk ",
+        "emoji": "🦟"
+    },
+    "320": {
+        "class_name": "damselfly",
+        "emoji": "🦋"
+    },
+    "321": {
+        "class_name": "admiral",
+        "emoji": "🦋"
+    },
+    "322": {
+        "class_name": "ringlet, ringlet butterfly",
+        "emoji": "🦋"
+    },
+    "323": {
+        "class_name": "monarch, monarch butterfly, milkweed butterfly, Danaus plexippus",
+        "emoji": "🦋"
+    },
+    "324": {
+        "class_name": "cabbage butterfly",
+        "emoji": "🦋"
+    },
+    "325": {
+        "class_name": "sulphur butterfly, sulfur butterfly",
+        "emoji": "🦋"
+    },
+    "326": {
+        "class_name": "lycaenid, lycaenid butterfly",
+        "emoji": "🦋"
+    },
+    "327": {
+        "class_name": "starfish, sea star",
+        "emoji": "🦑"
+    },
+    "328": {
+        "class_name": "sea urchin",
+        "emoji": "🦑"
+    },
+    "329": {
+        "class_name": "sea cucumber, holothurian",
+        "emoji": "🦑"
+    },
+    "330": {
+        "class_name": "wood rabbit, cottontail, cottontail rabbit",
+        "emoji": "🐰"
+    },
+    "331": {
+        "class_name": "hare",
+        "emoji": "🐰"
+    },
+    "332": {
+        "class_name": "Angora, Angora rabbit",
+        "emoji": "🐰"
+    },
+    "333": {
+        "class_name": "hamster",
+        "emoji": "🐹"
+    },
+    "334": {
+        "class_name": "porcupine, hedgehog",
+        "emoji": "🦔"
+    },
+    "335": {
+        "class_name": "fox squirrel, eastern fox squirrel, Sciurus niger",
+        "emoji": "🐿️"
+    },
+    "336": {
+        "class_name": "marmot",
+        "emoji": "🐿️"
+    },
+    "337": {
+        "class_name": "beaver",
+        "emoji": "🐿️"
+    },
+    "338": {
+        "class_name": "guinea pig, Cavia cobaya",
+        "emoji": "🐹"
+    },
+    "339": {
+        "class_name": "sorrel",
+        "emoji": "🌿"
+    },
+    "340": {
+        "class_name": "zebra",
+        "emoji": "🦓"
+    },
+    "341": {
+        "class_name": "hog, pig, grunter, squealer, Sus scrofa",
+        "emoji": "🐖"
+    },
+    "342": {
+        "class_name": "wild boar, boar, Sus scrofa",
+        "emoji": "🐗"
+    },
+    "343": {
+        "class_name": "warthog",
+        "emoji": "🐗"
+    },
+    "344": {
+        "class_name": "hippopotamus, hippo, river horse, Hippopotamus amphibius",
+        "emoji": "🦛"
+    },
+    "345": {
+        "class_name": "ox",
+        "emoji": ""
+    },
+    "346": {
+        "class_name": "water buffalo, water ox, Asiatic buffalo, Bubalus bubalis",
+        "emoji": "🐃"
+    },
+    "347": {
+        "class_name": "bison",
+        "emoji": "🐃"
+    },
+    "348": {
+        "class_name": "ram, tup",
+        "emoji": "🐏"
+    },
+    "349": {
+        "class_name": "bighorn, bighorn sheep, cimarron, Rocky Mountain bighorn, Rocky Mountain sheep, Ovis canadensis",
+        "emoji": "🐏"
+    },
+    "350": {
+        "class_name": "ibex, Capra ibex",
+        "emoji": "🐏"
+    },
+    "351": {
+        "class_name": "hartebeest",
+        "emoji": "🐏"
+    },
+    "352": {
+        "class_name": "impala, Aepyceros melampus",
+        "emoji": "🐏"
+    },
+    "353": {
+        "class_name": "gazelle",
+        "emoji": "🐏"
+    },
+    "354": {
+        "class_name": "Arabian camel, dromedary, Camelus dromedarius",
+        "emoji": "🐪"
+    },
+    "355": {
+        "class_name": "llama",
+        "emoji": "🦙"
+    },
+    "356": {
+        "class_name": "weasel",
+        "emoji": "🐿️"
+    },
+    "357": {
+        "class_name": "mink",
+        "emoji": "🐿️"
+    },
+    "358": {
+        "class_name": "polecat, fitch, foulmart, foumart, Mustela putorius",
+        "emoji": "🐿️"
+    },
+    "359": {
+        "class_name": "black-footed ferret, ferret, Mustela nigripes",
+        "emoji": "🐿️"
+    },
+    "360": {
+        "class_name": "otter",
+        "emoji": "🐿️"
+    },
+    "361": {
+        "class_name": "skunk, polecat, wood pussy",
+        "emoji": "🐿️"
+    },
+    "362": {
+        "class_name": "badger",
+        "emoji": "🦡"
+    },
+    "363": {
+        "class_name": "armadillo",
+        "emoji": "🦔"
+    },
+    "364": {
+        "class_name": "three-toed sloth, ai, Bradypus tridactylus",
+        "emoji": "🐒"
+    },
+    "365": {
+        "class_name": "orangutan, orang, orangutang, Pongo pygmaeus",
+        "emoji": "🐒"
+    },
+    "366": {
+        "class_name": "gorilla, Gorilla gorilla",
+        "emoji": "🦍"
+    },
+    "367": {
+        "class_name": "chimpanzee, chimp, Pan troglodytes",
+        "emoji": "🐒"
+    },
+    "368": {
+        "class_name": "gibbon, Hylobates lar",
+        "emoji": "🐒"
+    },
+    "369": {
+        "class_name": "siamang, Hylobates syndactylus, Symphalangus syndactylus",
+        "emoji": "🐒"
+    },
+    "370": {
+        "class_name": "guenon, guenon monkey",
+        "emoji": "🐒"
+    },
+    "371": {
+        "class_name": "patas, hussar monkey, Erythrocebus patas",
+        "emoji": "🐒"
+    },
+    "372": {
+        "class_name": "baboon",
+        "emoji": "🐒"
+    },
+    "373": {
+        "class_name": "macaque",
+        "emoji": "🐒"
+    },
+    "374": {
+        "class_name": "langur",
+        "emoji": "🐒"
+    },
+    "375": {
+        "class_name": "colobus, colobus monkey",
+        "emoji": "🐒"
+    },
+    "376": {
+        "class_name": "proboscis monkey, Nasalis larvatus",
+        "emoji": "🐒"
+    },
+    "377": {
+        "class_name": "marmoset",
+        "emoji": "🐒"
+    },
+    "378": {
+        "class_name": "capuchin, ringtail, Cebus capucinus",
+        "emoji": "🐒"
+    },
+    "379": {
+        "class_name": "howler monkey, howler",
+        "emoji": "🐒"
+    },
+    "380": {
+        "class_name": "titi, titi monkey",
+        "emoji": "🐒"
+    },
+    "381": {
+        "class_name": "spider monkey, Ateles geoffroyi",
+        "emoji": "🐒"
+    },
+    "382": {
+        "class_name": "squirrel monkey, Saimiri sciureus",
+        "emoji": "🐒"
+    },
+    "383": {
+        "class_name": "Madagascar cat, ring-tailed lemur, Lemur catta",
+        "emoji": "🐒"
+    },
+    "384": {
+        "class_name": "indri, indris, Indri indri, Indri brevicaudatus",
+        "emoji": "🐒"
+    },
+    "385": {
+        "class_name": "Indian elephant, Elephas maximus",
+        "emoji": "🐘"
+    },
+    "386": {
+        "class_name": "African elephant, Loxodonta africana",
+        "emoji": "🐘"
+    },
+    "387": {
+        "class_name": "lesser panda, red panda, panda, bear cat, cat bear, Ailurus fulgens",
+        "emoji": "🐼"
+    },
+    "388": {
+        "class_name": "giant panda, panda, panda bear, coon bear, Ailuropoda melanoleuca",
+        "emoji": "🐼"
+    },
+    "389": {
+        "class_name": "barracouta, snoek",
+        "emoji": "🐟"
+    },
+    "390": {
+        "class_name": "eel",
+        "emoji": "🐟"
+    },
+    "391": {
+        "class_name": "coho, cohoe, coho salmon, blue jack, silver salmon, Oncorhynchus kisutch",
+        "emoji": "🐟"
+    },
+    "392": {
+        "class_name": "rock beauty, Holocanthus tricolor",
+        "emoji": "🐠"
+    },
+    "393": {
+        "class_name": "anemone fish",
+        "emoji": "🐠"
+    },
+    "394": {
+        "class_name": "sturgeon",
+        "emoji": "🐟"
+    },
+    "395": {
+        "class_name": "gar, garfish, garpike, billfish, Lepisosteus osseus",
+        "emoji": "🐟"
+    },
+    "396": {
+        "class_name": "lionfish",
+        "emoji": "🐠"
+    },
+    "397": {
+        "class_name": "puffer, pufferfish, blowfish, globefish",
+        "emoji": "🐡"
+    },
+    "398": {
+        "class_name": "abacus",
+        "emoji": "🧮"
+    },
+    "399": {
+        "class_name": "abaya",
+        "emoji": "💃"
+    },
+    "400": {
+        "class_name": "academic gown, academic robe, judge's robe ",
+        "emoji": "🎓"
+    },
+    "401": {
+        "class_name": "accordion, piano accordion, squeeze box",
+        "emoji": "🎹"
+    },
+    "402": {
+        "class_name": "acoustic guitar",
+        "emoji": "🎸"
+    },
+    "403": {
+        "class_name": "aircraft carrier, carrier, flattop, attack aircraft carrier",
+        "emoji": "⛵"
+    },
+    "404": {
+        "class_name": "airliner",
+        "emoji": "✈️"
+    },
+    "405": {
+        "class_name": "airship, dirigible",
+        "emoji": "✈️"
+    },
+    "406": {
+        "class_name": "altar",
+        "emoji": "⛪"
+    },
+    "407": {
+        "class_name": "ambulance",
+        "emoji": "🚑"
+    },
+    "408": {
+        "class_name": "amphibian, amphibious vehicle",
+        "emoji": "🐸"
+    },
+    "409": {
+        "class_name": "analog clock",
+        "emoji": "⏰"
+    },
+    "410": {
+        "class_name": "apiary, bee house",
+        "emoji": "🐝"
+    },
+    "411": {
+        "class_name": "apron",
+        "emoji": "🍜"
+    },
+    "412": {
+        "class_name": "ashcan, trash can, garbage can, wastebin, ash bin, ash-bin, ashbin, dustbin, trash barrel, trash bin",
+        "emoji": "🗑️"
+    },
+    "413": {
+        "class_name": "assault rifle, assault gun",
+        "emoji": "🔫"
+    },
+    "414": {
+        "class_name": "backpack, back pack, knapsack, packsack, rucksack, haversack",
+        "emoji": "👜"
+    },
+    "415": {
+        "class_name": "bakery, bakeshop, bakehouse",
+        "emoji": "🥖"
+    },
+    "416": {
+        "class_name": "balance beam, beam",
+        "emoji": "🤸"
+    },
+    "417": {
+        "class_name": "balloon",
+        "emoji": "🎈"
+    },
+    "418": {
+        "class_name": "ballpoint, ballpoint pen, ballpen, Biro",
+        "emoji": "🖊️"
+    },
+    "419": {
+        "class_name": "Band Aid",
+        "emoji": "💉"
+    },
+    "420": {
+        "class_name": "banjo",
+        "emoji": "🎸"
+    },
+    "421": {
+        "class_name": "bannister, banister, balustrade, balusters, handrail",
+        "emoji": ""
+    },
+    "422": {
+        "class_name": "barbell",
+        "emoji": "🏋️"
+    },
+    "423": {
+        "class_name": "barber chair",
+        "emoji": "💈"
+    },
+    "424": {
+        "class_name": "barbershop",
+        "emoji": "💈"
+    },
+    "425": {
+        "class_name": "barn",
+        "emoji": "🐴"
+    },
+    "426": {
+        "class_name": "barometer",
+        "emoji": "🌡️"
+    },
+    "427": {
+        "class_name": "barrel, cask",
+        "emoji": "🏺"
+    },
+    "428": {
+        "class_name": "barrow, garden cart, lawn cart, wheelbarrow",
+        "emoji": "⚙️"
+    },
+    "429": {
+        "class_name": "baseball",
+        "emoji": "⚾"
+    },
+    "430": {
+        "class_name": "basketball",
+        "emoji": "🏀"
+    },
+    "431": {
+        "class_name": "bassinet",
+        "emoji": "🧺"
+    },
+    "432": {
+        "class_name": "bassoon",
+        "emoji": "🎺"
+    },
+    "433": {
+        "class_name": "bathing cap, swimming cap",
+        "emoji": "🏊"
+    },
+    "434": {
+        "class_name": "bath towel",
+        "emoji": "🏊"
+    },
+    "435": {
+        "class_name": "bathtub, bathing tub, bath, tub",
+        "emoji": "🛀"
+    },
+    "436": {
+        "class_name": "beach wagon, station wagon, wagon, estate car, beach waggon, station waggon, waggon",
+        "emoji": "🚗"
+    },
+    "437": {
+        "class_name": "beacon, lighthouse, beacon light, pharos",
+        "emoji": "🚨"
+    },
+    "438": {
+        "class_name": "beaker",
+        "emoji": "🧪"
+    },
+    "439": {
+        "class_name": "bearskin, busby, shako",
+        "emoji": "💂"
+    },
+    "440": {
+        "class_name": "beer bottle",
+        "emoji": "🍻"
+    },
+    "441": {
+        "class_name": "beer glass",
+        "emoji": "🍻"
+    },
+    "442": {
+        "class_name": "bell cote, bell cot",
+        "emoji": ""
+    },
+    "443": {
+        "class_name": "bib",
+        "emoji": ""
+    },
+    "444": {
+        "class_name": "bicycle-built-for-two, tandem bicycle, tandem",
+        "emoji": "🚲"
+    },
+    "445": {
+        "class_name": "bikini, two-piece",
+        "emoji": "👙"
+    },
+    "446": {
+        "class_name": "binder, ring-binder",
+        "emoji": "📚"
+    },
+    "447": {
+        "class_name": "binoculars, field glasses, opera glasses",
+        "emoji": "🤓"
+    },
+    "448": {
+        "class_name": "birdhouse",
+        "emoji": "🏠"
+    },
+    "449": {
+        "class_name": "boathouse",
+        "emoji": "🏠"
+    },
+    "450": {
+        "class_name": "bobsled, bobsleigh, bob",
+        "emoji": "🛷"
+    },
+    "451": {
+        "class_name": "bolo tie, bolo, bola tie, bola",
+        "emoji": "🎀"
+    },
+    "452": {
+        "class_name": "bonnet, poke bonnet",
+        "emoji": "🤶"
+    },
+    "453": {
+        "class_name": "bookcase",
+        "emoji": "📚"
+    },
+    "454": {
+        "class_name": "bookshop, bookstore, bookstall",
+        "emoji": "📚"
+    },
+    "455": {
+        "class_name": "bottlecap",
+        "emoji": "🍾"
+    },
+    "456": {
+        "class_name": "bow",
+        "emoji": "🎀"
+    },
+    "457": {
+        "class_name": "bow tie, bow-tie, bowtie",
+        "emoji": "👔"
+    },
+    "458": {
+        "class_name": "brass, memorial tablet, plaque",
+        "emoji": "🏆"
+    },
+    "459": {
+        "class_name": "brassiere, bra, bandeau",
+        "emoji": "👙"
+    },
+    "460": {
+        "class_name": "breakwater, groin, groyne, mole, bulwark, seawall, jetty",
+        "emoji": "🌊"
+    },
+    "461": {
+        "class_name": "breastplate, aegis, egis",
+        "emoji": "🎖️"
+    },
+    "462": {
+        "class_name": "broom",
+        "emoji": "🧹"
+    },
+    "463": {
+        "class_name": "bucket, pail",
+        "emoji": "🥤"
+    },
+    "464": {
+        "class_name": "buckle",
+        "emoji": "👞"
+    },
+    "465": {
+        "class_name": "bulletproof vest",
+        "emoji": ""
+    },
+    "466": {
+        "class_name": "bullet train, bullet",
+        "emoji": "🚂"
+    },
+    "467": {
+        "class_name": "butcher shop, meat market",
+        "emoji": "🥩"
+    },
+    "468": {
+        "class_name": "cab, hack, taxi, taxicab",
+        "emoji": "🚕"
+    },
+    "469": {
+        "class_name": "caldron, cauldron",
+        "emoji": "🥤"
+    },
+    "470": {
+        "class_name": "candle, taper, wax light",
+        "emoji": "🕯️"
+    },
+    "471": {
+        "class_name": "cannon",
+        "emoji": "🕯️"
+    },
+    "472": {
+        "class_name": "canoe",
+        "emoji": "🚣"
+    },
+    "473": {
+        "class_name": "can opener, tin opener",
+        "emoji": "🥫"
+    },
+    "474": {
+        "class_name": "cardigan",
+        "emoji": "👕"
+    },
+    "475": {
+        "class_name": "car mirror",
+        "emoji": "🚗"
+    },
+    "476": {
+        "class_name": "carousel, carrousel, merry-go-round, roundabout, whirligig",
+        "emoji": "🎪"
+    },
+    "477": {
+        "class_name": "carpenter's kit, tool kit ",
+        "emoji": "⚒️"
+    },
+    "478": {
+        "class_name": "carton",
+        "emoji": "📦"
+    },
+    "479": {
+        "class_name": "car wheel",
+        "emoji": "⚙️"
+    },
+    "480": {
+        "class_name": "cash machine, cash dispenser, automated teller machine, automatic teller machine, automated teller, automatic teller, ATM",
+        "emoji": "💰"
+    },
+    "481": {
+        "class_name": "cassette",
+        "emoji": "📻"
+    },
+    "482": {
+        "class_name": "cassette player",
+        "emoji": "📻"
+    },
+    "483": {
+        "class_name": "castle",
+        "emoji": "🏰"
+    },
+    "484": {
+        "class_name": "catamaran",
+        "emoji": "⛵"
+    },
+    "485": {
+        "class_name": "CD player",
+        "emoji": "💿"
+    },
+    "486": {
+        "class_name": "cello, violoncello",
+        "emoji": "🎻"
+    },
+    "487": {
+        "class_name": "cellular telephone, cellular phone, cellphone, cell, mobile phone",
+        "emoji": "☎️"
+    },
+    "488": {
+        "class_name": "chain",
+        "emoji": "⛓️"
+    },
+    "489": {
+        "class_name": "chainlink fence",
+        "emoji": "⛓️"
+    },
+    "490": {
+        "class_name": "chain mail, ring mail, mail, chain armor, chain armour, ring armor, ring armour",
+        "emoji": "⛓️"
+    },
+    "491": {
+        "class_name": "chain saw, chainsaw",
+        "emoji": "🌲"
+    },
+    "492": {
+        "class_name": "chest",
+        "emoji": "📦"
+    },
+    "493": {
+        "class_name": "chiffonier, commode",
+        "emoji": "🗄️"
+    },
+    "494": {
+        "class_name": "chime, bell, gong",
+        "emoji": "🔔"
+    },
+    "495": {
+        "class_name": "china cabinet, china closet",
+        "emoji": "🗄️"
+    },
+    "496": {
+        "class_name": "Christmas stocking",
+        "emoji": "🧦"
+    },
+    "497": {
+        "class_name": "church, church building",
+        "emoji": "⛪"
+    },
+    "498": {
+        "class_name": "cinema, movie theater, movie theatre, movie house, picture palace",
+        "emoji": "📽️"
+    },
+    "499": {
+        "class_name": "cleaver, meat cleaver, chopper",
+        "emoji": "🔪"
+    },
+    "500": {
+        "class_name": "cliff dwelling",
+        "emoji": "🏠"
+    },
+    "501": {
+        "class_name": "cloak",
+        "emoji": "🧥"
+    },
+    "502": {
+        "class_name": "clog, geta, patten, sabot",
+        "emoji": "👞"
+    },
+    "503": {
+        "class_name": "cocktail shaker",
+        "emoji": "🍹"
+    },
+    "504": {
+        "class_name": "coffee mug",
+        "emoji": "☕"
+    },
+    "505": {
+        "class_name": "coffeepot",
+        "emoji": "☕"
+    },
+    "506": {
+        "class_name": "coil, spiral, volute, whorl, helix",
+        "emoji": "➿"
+    },
+    "507": {
+        "class_name": "combination lock",
+        "emoji": "🔒"
+    },
+    "508": {
+        "class_name": "computer keyboard, keypad",
+        "emoji": "⌨️"
+    },
+    "509": {
+        "class_name": "confectionery, confectionary, candy store",
+        "emoji": "🍬"
+    },
+    "510": {
+        "class_name": "container ship, containership, container vessel",
+        "emoji": "🚢"
+    },
+    "511": {
+        "class_name": "convertible",
+        "emoji": "🏎️"
+    },
+    "512": {
+        "class_name": "corkscrew, bottle screw",
+        "emoji": "🍾"
+    },
+    "513": {
+        "class_name": "cornet, horn, trumpet, trump",
+        "emoji": "📯"
+    },
+    "514": {
+        "class_name": "cowboy boot",
+        "emoji": "👢"
+    },
+    "515": {
+        "class_name": "cowboy hat, ten-gallon hat",
+        "emoji": "🤠"
+    },
+    "516": {
+        "class_name": "cradle",
+        "emoji": "🧺"
+    },
+    "517": {
+        "class_name": "crane",
+        "emoji": "🏗️"
+    },
+    "518": {
+        "class_name": "crash helmet",
+        "emoji": "⛑️"
+    },
+    "519": {
+        "class_name": "crate",
+        "emoji": "📦"
+    },
+    "520": {
+        "class_name": "crib, cot",
+        "emoji": "🧺"
+    },
+    "521": {
+        "class_name": "Crock Pot",
+        "emoji": "🥘"
+    },
+    "522": {
+        "class_name": "croquet ball",
+        "emoji": "⛹️"
+    },
+    "523": {
+        "class_name": "crutch",
+        "emoji": "🤕"
+    },
+    "524": {
+        "class_name": "cuirass",
+        "emoji": "🛡️"
+    },
+    "525": {
+        "class_name": "dam, dike, dyke",
+        "emoji": "🏞️"
+    },
+    "526": {
+        "class_name": "desk",
+        "emoji": "🖥️"
+    },
+    "527": {
+        "class_name": "desktop computer",
+        "emoji": "🖥️"
+    },
+    "528": {
+        "class_name": "dial telephone, dial phone",
+        "emoji": "☎️"
+    },
+    "529": {
+        "class_name": "diaper, nappy, napkin",
+        "emoji": "👶"
+    },
+    "530": {
+        "class_name": "digital clock",
+        "emoji": "⏰"
+    },
+    "531": {
+        "class_name": "digital watch",
+        "emoji": "⏰"
+    },
+    "532": {
+        "class_name": "dining table, board",
+        "emoji": "🍔"
+    },
+    "533": {
+        "class_name": "dishrag, dishcloth",
+        "emoji": "🧣"
+    },
+    "534": {
+        "class_name": "dishwasher, dish washer, dishwashing machine",
+        "emoji": "🍽️"
+    },
+    "535": {
+        "class_name": "disk brake, disc brake",
+        "emoji": "⚙️"
+    },
+    "536": {
+        "class_name": "dock, dockage, docking facility",
+        "emoji": "🚢"
+    },
+    "537": {
+        "class_name": "dogsled, dog sled, dog sleigh",
+        "emoji": "🛷"
+    },
+    "538": {
+        "class_name": "dome",
+        "emoji": "🕌"
+    },
+    "539": {
+        "class_name": "doormat, welcome mat",
+        "emoji": "🚪"
+    },
+    "540": {
+        "class_name": "drilling platform, offshore rig",
+        "emoji": "🛢️"
+    },
+    "541": {
+        "class_name": "drum, membranophone, tympan",
+        "emoji": "🥁"
+    },
+    "542": {
+        "class_name": "drumstick",
+        "emoji": "🥁"
+    },
+    "543": {
+        "class_name": "dumbbell",
+        "emoji": "🏋️"
+    },
+    "544": {
+        "class_name": "Dutch oven",
+        "emoji": "🍲"
+    },
+    "545": {
+        "class_name": "electric fan, blower",
+        "emoji": "💨"
+    },
+    "546": {
+        "class_name": "electric guitar",
+        "emoji": "🎸"
+    },
+    "547": {
+        "class_name": "electric locomotive",
+        "emoji": "🚂"
+    },
+    "548": {
+        "class_name": "entertainment center",
+        "emoji": "📽️"
+    },
+    "549": {
+        "class_name": "envelope",
+        "emoji": "✉️"
+    },
+    "550": {
+        "class_name": "espresso maker",
+        "emoji": "☕"
+    },
+    "551": {
+        "class_name": "face powder",
+        "emoji": "💅"
+    },
+    "552": {
+        "class_name": "feather boa, boa",
+        "emoji": "💃"
+    },
+    "553": {
+        "class_name": "file, file cabinet, filing cabinet",
+        "emoji": "🗄️"
+    },
+    "554": {
+        "class_name": "fireboat",
+        "emoji": "🚣‍♂️"
+    },
+    "555": {
+        "class_name": "fire engine, fire truck",
+        "emoji": "🚒"
+    },
+    "556": {
+        "class_name": "fire screen, fireguard",
+        "emoji": "🔥"
+    },
+    "557": {
+        "class_name": "flagpole, flagstaff",
+        "emoji": "⛳"
+    },
+    "558": {
+        "class_name": "flute, transverse flute",
+        "emoji": "🎵"
+    },
+    "559": {
+        "class_name": "folding chair",
+        "emoji": "💺"
+    },
+    "560": {
+        "class_name": "football helmet",
+        "emoji": "⛑️"
+    },
+    "561": {
+        "class_name": "forklift",
+        "emoji": "🚧"
+    },
+    "562": {
+        "class_name": "fountain",
+        "emoji": "⛲"
+    },
+    "563": {
+        "class_name": "fountain pen",
+        "emoji": "🖋️"
+    },
+    "564": {
+        "class_name": "four-poster",
+        "emoji": "🛏️"
+    },
+    "565": {
+        "class_name": "freight car",
+        "emoji": "🚂"
+    },
+    "566": {
+        "class_name": "French horn, horn",
+        "emoji": "📯"
+    },
+    "567": {
+        "class_name": "frying pan, frypan, skillet",
+        "emoji": "🍳"
+    },
+    "568": {
+        "class_name": "fur coat",
+        "emoji": "🧥"
+    },
+    "569": {
+        "class_name": "garbage truck, dustcart",
+        "emoji": "🚛"
+    },
+    "570": {
+        "class_name": "gasmask, respirator, gas helmet",
+        "emoji": ""
+    },
+    "571": {
+        "class_name": "gas pump, gasoline pump, petrol pump, island dispenser",
+        "emoji": "⛽"
+    },
+    "572": {
+        "class_name": "goblet",
+        "emoji": "🏆"
+    },
+    "573": {
+        "class_name": "go-kart",
+        "emoji": "🏎️"
+    },
+    "574": {
+        "class_name": "golf ball",
+        "emoji": "🏌️"
+    },
+    "575": {
+        "class_name": "golfcart, golf cart",
+        "emoji": "🏌️"
+    },
+    "576": {
+        "class_name": "gondola",
+        "emoji": "🚡"
+    },
+    "577": {
+        "class_name": "gong, tam-tam",
+        "emoji": "💿"
+    },
+    "578": {
+        "class_name": "gown",
+        "emoji": "👗"
+    },
+    "579": {
+        "class_name": "grand piano, grand",
+        "emoji": "🎹"
+    },
+    "580": {
+        "class_name": "greenhouse, nursery, glasshouse",
+        "emoji": "🌿"
+    },
+    "581": {
+        "class_name": "grille, radiator grille",
+        "emoji": ""
+    },
+    "582": {
+        "class_name": "grocery store, grocery, food market, market",
+        "emoji": "🥦"
+    },
+    "583": {
+        "class_name": "guillotine",
+        "emoji": "🔪"
+    },
+    "584": {
+        "class_name": "hair slide",
+        "emoji": "💅"
+    },
+    "585": {
+        "class_name": "hair spray",
+        "emoji": "💅"
+    },
+    "586": {
+        "class_name": "half track",
+        "emoji": "🚛"
+    },
+    "587": {
+        "class_name": "hammer",
+        "emoji": "🔨"
+    },
+    "588": {
+        "class_name": "hamper",
+        "emoji": "🧺"
+    },
+    "589": {
+        "class_name": "hand blower, blow dryer, blow drier, hair dryer, hair drier",
+        "emoji": "💨"
+    },
+    "590": {
+        "class_name": "hand-held computer, hand-held microcomputer",
+        "emoji": "🖥️"
+    },
+    "591": {
+        "class_name": "handkerchief, hankie, hanky, hankey",
+        "emoji": "🤧"
+    },
+    "592": {
+        "class_name": "hard disc, hard disk, fixed disk",
+        "emoji": "💾"
+    },
+    "593": {
+        "class_name": "harmonica, mouth organ, harp, mouth harp",
+        "emoji": "🎹"
+    },
+    "594": {
+        "class_name": "harp",
+        "emoji": "🎹"
+    },
+    "595": {
+        "class_name": "harvester, reaper",
+        "emoji": "💀"
+    },
+    "596": {
+        "class_name": "hatchet",
+        "emoji": "🔪"
+    },
+    "597": {
+        "class_name": "holster",
+        "emoji": "🔫"
+    },
+    "598": {
+        "class_name": "home theater, home theatre",
+        "emoji": "📽️"
+    },
+    "599": {
+        "class_name": "honeycomb",
+        "emoji": "🐝"
+    },
+    "600": {
+        "class_name": "hook, claw",
+        "emoji": "🎣"
+    },
+    "601": {
+        "class_name": "hoopskirt, crinoline",
+        "emoji": "👗"
+    },
+    "602": {
+        "class_name": "horizontal bar, high bar",
+        "emoji": ""
+    },
+    "603": {
+        "class_name": "horse cart, horse-cart",
+        "emoji": "🐎"
+    },
+    "604": {
+        "class_name": "hourglass",
+        "emoji": "⌛"
+    },
+    "605": {
+        "class_name": "iPod",
+        "emoji": "🎧"
+    },
+    "606": {
+        "class_name": "iron, smoothing iron",
+        "emoji": "👕"
+    },
+    "607": {
+        "class_name": "jack-o-lantern",
+        "emoji": "🎃"
+    },
+    "608": {
+        "class_name": "jean, blue jean, denim",
+        "emoji": "👖"
+    },
+    "609": {
+        "class_name": "jeep, landrover",
+        "emoji": "🚓"
+    },
+    "610": {
+        "class_name": "jersey, T-shirt, tee shirt",
+        "emoji": "👕"
+    },
+    "611": {
+        "class_name": "jigsaw puzzle",
+        "emoji": "🧩"
+    },
+    "612": {
+        "class_name": "jinrikisha, ricksha, rickshaw",
+        "emoji": "🚗"
+    },
+    "613": {
+        "class_name": "joystick",
+        "emoji": "🕹️"
+    },
+    "614": {
+        "class_name": "kimono",
+        "emoji": "👘"
+    },
+    "615": {
+        "class_name": "knee pad",
+        "emoji": "🦵"
+    },
+    "616": {
+        "class_name": "knot",
+        "emoji": "🎀"
+    },
+    "617": {
+        "class_name": "lab coat, laboratory coat",
+        "emoji": "🥼"
+    },
+    "618": {
+        "class_name": "ladle",
+        "emoji": "🥄"
+    },
+    "619": {
+        "class_name": "lampshade, lamp shade",
+        "emoji": "💡"
+    },
+    "620": {
+        "class_name": "laptop, laptop computer",
+        "emoji": "💻"
+    },
+    "621": {
+        "class_name": "lawn mower, mower",
+        "emoji": "🌿"
+    },
+    "622": {
+        "class_name": "lens cap, lens cover",
+        "emoji": "📷"
+    },
+    "623": {
+        "class_name": "letter opener, paper knife, paperknife",
+        "emoji": "🗡️"
+    },
+    "624": {
+        "class_name": "library",
+        "emoji": "📚"
+    },
+    "625": {
+        "class_name": "lifeboat",
+        "emoji": "🚣"
+    },
+    "626": {
+        "class_name": "lighter, light, igniter, ignitor",
+        "emoji": "🔥"
+    },
+    "627": {
+        "class_name": "limousine, limo",
+        "emoji": "🚗"
+    },
+    "628": {
+        "class_name": "liner, ocean liner",
+        "emoji": "🛳️"
+    },
+    "629": {
+        "class_name": "lipstick, lip rouge",
+        "emoji": "💄"
+    },
+    "630": {
+        "class_name": "Loafer",
+        "emoji": "👞"
+    },
+    "631": {
+        "class_name": "lotion",
+        "emoji": "🧴"
+    },
+    "632": {
+        "class_name": "loudspeaker, speaker, speaker unit, loudspeaker system, speaker system",
+        "emoji": "🔈"
+    },
+    "633": {
+        "class_name": "loupe, jeweler's loupe ",
+        "emoji": "🔍"
+    },
+    "634": {
+        "class_name": "lumbermill, sawmill",
+        "emoji": ""
+    },
+    "635": {
+        "class_name": "magnetic compass",
+        "emoji": "🧭"
+    },
+    "636": {
+        "class_name": "mailbag, postbag",
+        "emoji": "📪"
+    },
+    "637": {
+        "class_name": "mailbox, letter box",
+        "emoji": "📪"
+    },
+    "638": {
+        "class_name": "maillot",
+        "emoji": "👙"
+    },
+    "639": {
+        "class_name": "maillot, tank suit",
+        "emoji": "👙"
+    },
+    "640": {
+        "class_name": "manhole cover",
+        "emoji": "🕳️"
+    },
+    "641": {
+        "class_name": "maraca",
+        "emoji": "🥁"
+    },
+    "642": {
+        "class_name": "marimba, xylophone",
+        "emoji": "🎹"
+    },
+    "643": {
+        "class_name": "mask",
+        "emoji": "👺"
+    },
+    "644": {
+        "class_name": "matchstick",
+        "emoji": "🔥"
+    },
+    "645": {
+        "class_name": "maypole",
+        "emoji": "🎏"
+    },
+    "646": {
+        "class_name": "maze, labyrinth",
+        "emoji": "🏰"
+    },
+    "647": {
+        "class_name": "measuring cup",
+        "emoji": "🚰"
+    },
+    "648": {
+        "class_name": "medicine chest, medicine cabinet",
+        "emoji": "🧰"
+    },
+    "649": {
+        "class_name": "megalith, megalithic structure",
+        "emoji": "⛰️"
+    },
+    "650": {
+        "class_name": "microphone, mike",
+        "emoji": "🎤"
+    },
+    "651": {
+        "class_name": "microwave, microwave oven",
+        "emoji": "🍲"
+    },
+    "652": {
+        "class_name": "military uniform",
+        "emoji": "🎖️"
+    },
+    "653": {
+        "class_name": "milk can",
+        "emoji": "🥛"
+    },
+    "654": {
+        "class_name": "minibus",
+        "emoji": "🚌"
+    },
+    "655": {
+        "class_name": "miniskirt, mini",
+        "emoji": "👗"
+    },
+    "656": {
+        "class_name": "minivan",
+        "emoji": "🚌"
+    },
+    "657": {
+        "class_name": "missile",
+        "emoji": "🚀"
+    },
+    "658": {
+        "class_name": "mitten",
+        "emoji": "🥊"
+    },
+    "659": {
+        "class_name": "mixing bowl",
+        "emoji": "🥣"
+    },
+    "660": {
+        "class_name": "mobile home, manufactured home",
+        "emoji": "🏠"
+    },
+    "661": {
+        "class_name": "Model T",
+        "emoji": "🚗"
+    },
+    "662": {
+        "class_name": "modem",
+        "emoji": "☎️"
+    },
+    "663": {
+        "class_name": "monastery",
+        "emoji": "⛪"
+    },
+    "664": {
+        "class_name": "monitor",
+        "emoji": "🖥️"
+    },
+    "665": {
+        "class_name": "moped",
+        "emoji": "🛵"
+    },
+    "666": {
+        "class_name": "mortar",
+        "emoji": "🚀"
+    },
+    "667": {
+        "class_name": "mortarboard",
+        "emoji": "🎓"
+    },
+    "668": {
+        "class_name": "mosque",
+        "emoji": "🕌"
+    },
+    "669": {
+        "class_name": "mosquito net",
+        "emoji": "🦟"
+    },
+    "670": {
+        "class_name": "motor scooter, scooter",
+        "emoji": "🛵"
+    },
+    "671": {
+        "class_name": "mountain bike, all-terrain bike, off-roader",
+        "emoji": "🚴"
+    },
+    "672": {
+        "class_name": "mountain tent",
+        "emoji": "⛺"
+    },
+    "673": {
+        "class_name": "mouse, computer mouse",
+        "emoji": "🐭"
+    },
+    "674": {
+        "class_name": "mousetrap",
+        "emoji": "🐭"
+    },
+    "675": {
+        "class_name": "moving van",
+        "emoji": "🚚"
+    },
+    "676": {
+        "class_name": "muzzle",
+        "emoji": "🐶"
+    },
+    "677": {
+        "class_name": "nail",
+        "emoji": "🔨"
+    },
+    "678": {
+        "class_name": "neck brace",
+        "emoji": "🤕"
+    },
+    "679": {
+        "class_name": "necklace",
+        "emoji": "📿"
+    },
+    "680": {
+        "class_name": "nipple",
+        "emoji": "🌸"
+    },
+    "681": {
+        "class_name": "notebook, notebook computer",
+        "emoji": "💻"
+    },
+    "682": {
+        "class_name": "obelisk",
+        "emoji": "⛰️"
+    },
+    "683": {
+        "class_name": "oboe, hautboy, hautbois",
+        "emoji": "🎺"
+    },
+    "684": {
+        "class_name": "ocarina, sweet potato",
+        "emoji": "🍠"
+    },
+    "685": {
+        "class_name": "odometer, hodometer, mileometer, milometer",
+        "emoji": "📏"
+    },
+    "686": {
+        "class_name": "oil filter",
+        "emoji": ""
+    },
+    "687": {
+        "class_name": "organ, pipe organ",
+        "emoji": "🎵"
+    },
+    "688": {
+        "class_name": "oscilloscope, scope, cathode-ray oscilloscope, CRO",
+        "emoji": "📈"
+    },
+    "689": {
+        "class_name": "overskirt",
+        "emoji": "👗"
+    },
+    "690": {
+        "class_name": "oxcart",
+        "emoji": "🐂"
+    },
+    "691": {
+        "class_name": "oxygen mask",
+        "emoji": "😷"
+    },
+    "692": {
+        "class_name": "packet",
+        "emoji": "📦"
+    },
+    "693": {
+        "class_name": "paddle, boat paddle",
+        "emoji": "🚣"
+    },
+    "694": {
+        "class_name": "paddlewheel, paddle wheel",
+        "emoji": "🛥️"
+    },
+    "695": {
+        "class_name": "padlock",
+        "emoji": "🔒"
+    },
+    "696": {
+        "class_name": "paintbrush",
+        "emoji": "🖌️"
+    },
+    "697": {
+        "class_name": "pajama, pyjama, pj's, jammies ",
+        "emoji": "🛏️"
+    },
+    "698": {
+        "class_name": "palace",
+        "emoji": "🏰"
+    },
+    "699": {
+        "class_name": "panpipe, pandean pipe, syrinx",
+        "emoji": "🎶"
+    },
+    "700": {
+        "class_name": "paper towel",
+        "emoji": "🤧"
+    },
+    "701": {
+        "class_name": "parachute, chute",
+        "emoji": "☂️"
+    },
+    "702": {
+        "class_name": "parallel bars, bars",
+        "emoji": ""
+    },
+    "703": {
+        "class_name": "park bench",
+        "emoji": "💺"
+    },
+    "704": {
+        "class_name": "parking meter",
+        "emoji": "🅿️"
+    },
+    "705": {
+        "class_name": "passenger car, coach, carriage",
+        "emoji": "🚆"
+    },
+    "706": {
+        "class_name": "patio, terrace",
+        "emoji": ""
+    },
+    "707": {
+        "class_name": "pay-phone, pay-station",
+        "emoji": "📞"
+    },
+    "708": {
+        "class_name": "pedestal, plinth, footstall",
+        "emoji": ""
+    },
+    "709": {
+        "class_name": "pencil box, pencil case",
+        "emoji": "✍️"
+    },
+    "710": {
+        "class_name": "pencil sharpener",
+        "emoji": "✍️"
+    },
+    "711": {
+        "class_name": "perfume, essence",
+        "emoji": "👃"
+    },
+    "712": {
+        "class_name": "Petri dish",
+        "emoji": "🔬"
+    },
+    "713": {
+        "class_name": "photocopier",
+        "emoji": "📖"
+    },
+    "714": {
+        "class_name": "pick, plectrum, plectron",
+        "emoji": ""
+    },
+    "715": {
+        "class_name": "pickelhaube",
+        "emoji": "👷"
+    },
+    "716": {
+        "class_name": "picket fence, paling",
+        "emoji": ""
+    },
+    "717": {
+        "class_name": "pickup, pickup truck",
+        "emoji": "🚚"
+    },
+    "718": {
+        "class_name": "pier",
+        "emoji": "🌊"
+    },
+    "719": {
+        "class_name": "piggy bank, penny bank",
+        "emoji": "🐖"
+    },
+    "720": {
+        "class_name": "pill bottle",
+        "emoji": "💊"
+    },
+    "721": {
+        "class_name": "pillow",
+        "emoji": "🛏️"
+    },
+    "722": {
+        "class_name": "ping-pong ball",
+        "emoji": "🏓"
+    },
+    "723": {
+        "class_name": "pinwheel",
+        "emoji": "🍭"
+    },
+    "724": {
+        "class_name": "pirate, pirate ship",
+        "emoji": "☠️"
+    },
+    "725": {
+        "class_name": "pitcher, ewer",
+        "emoji": "🏺"
+    },
+    "726": {
+        "class_name": "plane, carpenter's plane, woodworking plane",
+        "emoji": "🔨"
+    },
+    "727": {
+        "class_name": "planetarium",
+        "emoji": "🔭"
+    },
+    "728": {
+        "class_name": "plastic bag",
+        "emoji": "🛍️"
+    },
+    "729": {
+        "class_name": "plate rack",
+        "emoji": "🍽️"
+    },
+    "730": {
+        "class_name": "plow, plough",
+        "emoji": "🌾"
+    },
+    "731": {
+        "class_name": "plunger, plumber's helper ",
+        "emoji": "🚽"
+    },
+    "732": {
+        "class_name": "Polaroid camera, Polaroid Land camera",
+        "emoji": "📷"
+    },
+    "733": {
+        "class_name": "pole",
+        "emoji": "🎏"
+    },
+    "734": {
+        "class_name": "police van, police wagon, paddy wagon, patrol wagon, wagon, black Maria",
+        "emoji": "🚓"
+    },
+    "735": {
+        "class_name": "poncho",
+        "emoji": "🧥"
+    },
+    "736": {
+        "class_name": "pool table, billiard table, snooker table",
+        "emoji": "🎱"
+    },
+    "737": {
+        "class_name": "pop bottle, soda bottle",
+        "emoji": "🥤"
+    },
+    "738": {
+        "class_name": "pot, flowerpot",
+        "emoji": "🌻"
+    },
+    "739": {
+        "class_name": "potter's wheel ",
+        "emoji": "🏺"
+    },
+    "740": {
+        "class_name": "power drill",
+        "emoji": "🔨"
+    },
+    "741": {
+        "class_name": "prayer rug, prayer mat",
+        "emoji": "🙇"
+    },
+    "742": {
+        "class_name": "printer",
+        "emoji": "🖨️"
+    },
+    "743": {
+        "class_name": "prison, prison house",
+        "emoji": "👮"
+    },
+    "744": {
+        "class_name": "projectile, missile",
+        "emoji": "🚀"
+    },
+    "745": {
+        "class_name": "projector",
+        "emoji": "📽️"
+    },
+    "746": {
+        "class_name": "puck, hockey puck",
+        "emoji": "🏑"
+    },
+    "747": {
+        "class_name": "punching bag, punch bag, punching ball, punchball",
+        "emoji": "🥊"
+    },
+    "748": {
+        "class_name": "purse",
+        "emoji": "👜"
+    },
+    "749": {
+        "class_name": "quill, quill pen",
+        "emoji": "✍️"
+    },
+    "750": {
+        "class_name": "quilt, comforter, comfort, puff",
+        "emoji": "🛏️"
+    },
+    "751": {
+        "class_name": "racer, race car, racing car",
+        "emoji": "🏎️"
+    },
+    "752": {
+        "class_name": "racket, racquet",
+        "emoji": "🏸"
+    },
+    "753": {
+        "class_name": "radiator",
+        "emoji": ""
+    },
+    "754": {
+        "class_name": "radio, wireless",
+        "emoji": "📻"
+    },
+    "755": {
+        "class_name": "radio telescope, radio reflector",
+        "emoji": "📡"
+    },
+    "756": {
+        "class_name": "rain barrel",
+        "emoji": "🛢️"
+    },
+    "757": {
+        "class_name": "recreational vehicle, RV, R.V.",
+        "emoji": "🚍"
+    },
+    "758": {
+        "class_name": "reel",
+        "emoji": "➿"
+    },
+    "759": {
+        "class_name": "reflex camera",
+        "emoji": "📷"
+    },
+    "760": {
+        "class_name": "refrigerator, icebox",
+        "emoji": "❄️"
+    },
+    "761": {
+        "class_name": "remote control, remote",
+        "emoji": "🎮"
+    },
+    "762": {
+        "class_name": "restaurant, eating house, eating place, eatery",
+        "emoji": "🍽️"
+    },
+    "763": {
+        "class_name": "revolver, six-gun, six-shooter",
+        "emoji": "🔫"
+    },
+    "764": {
+        "class_name": "rifle",
+        "emoji": "🔫"
+    },
+    "765": {
+        "class_name": "rocking chair, rocker",
+        "emoji": "💺"
+    },
+    "766": {
+        "class_name": "rotisserie",
+        "emoji": "🍗"
+    },
+    "767": {
+        "class_name": "rubber eraser, rubber, pencil eraser",
+        "emoji": "✏️"
+    },
+    "768": {
+        "class_name": "rugby ball",
+        "emoji": "🏉"
+    },
+    "769": {
+        "class_name": "rule, ruler",
+        "emoji": "📏"
+    },
+    "770": {
+        "class_name": "running shoe",
+        "emoji": "👟"
+    },
+    "771": {
+        "class_name": "safe",
+        "emoji": "🔒"
+    },
+    "772": {
+        "class_name": "safety pin",
+        "emoji": "🧷"
+    },
+    "773": {
+        "class_name": "saltshaker, salt shaker",
+        "emoji": "🧂"
+    },
+    "774": {
+        "class_name": "sandal",
+        "emoji": "👡"
+    },
+    "775": {
+        "class_name": "sarong",
+        "emoji": "👘"
+    },
+    "776": {
+        "class_name": "sax, saxophone",
+        "emoji": "🎷"
+    },
+    "777": {
+        "class_name": "scabbard",
+        "emoji": "🗡️"
+    },
+    "778": {
+        "class_name": "scale, weighing machine",
+        "emoji": "⚖️"
+    },
+    "779": {
+        "class_name": "school bus",
+        "emoji": "🚌"
+    },
+    "780": {
+        "class_name": "schooner",
+        "emoji": "⛵"
+    },
+    "781": {
+        "class_name": "scoreboard",
+        "emoji": "💯"
+    },
+    "782": {
+        "class_name": "screen, CRT screen",
+        "emoji": "📺"
+    },
+    "783": {
+        "class_name": "screw",
+        "emoji": "🔩"
+    },
+    "784": {
+        "class_name": "screwdriver",
+        "emoji": "🔨"
+    },
+    "785": {
+        "class_name": "seat belt, seatbelt",
+        "emoji": ""
+    },
+    "786": {
+        "class_name": "sewing machine",
+        "emoji": "🧶"
+    },
+    "787": {
+        "class_name": "shield, buckler",
+        "emoji": "🛡️"
+    },
+    "788": {
+        "class_name": "shoe shop, shoe-shop, shoe store",
+        "emoji": "👞"
+    },
+    "789": {
+        "class_name": "shoji",
+        "emoji": "⛩️"
+    },
+    "790": {
+        "class_name": "shopping basket",
+        "emoji": "🛒"
+    },
+    "791": {
+        "class_name": "shopping cart",
+        "emoji": "🛒"
+    },
+    "792": {
+        "class_name": "shovel",
+        "emoji": "🕳️"
+    },
+    "793": {
+        "class_name": "shower cap",
+        "emoji": "🚿"
+    },
+    "794": {
+        "class_name": "shower curtain",
+        "emoji": "🚿"
+    },
+    "795": {
+        "class_name": "ski",
+        "emoji": "⛷️"
+    },
+    "796": {
+        "class_name": "ski mask",
+        "emoji": "⛷️"
+    },
+    "797": {
+        "class_name": "sleeping bag",
+        "emoji": "⛺"
+    },
+    "798": {
+        "class_name": "slide rule, slipstick",
+        "emoji": "🧮"
+    },
+    "799": {
+        "class_name": "sliding door",
+        "emoji": "🚪"
+    },
+    "800": {
+        "class_name": "slot, one-armed bandit",
+        "emoji": "🎰"
+    },
+    "801": {
+        "class_name": "snorkel",
+        "emoji": "🐠"
+    },
+    "802": {
+        "class_name": "snowmobile",
+        "emoji": "🚚"
+    },
+    "803": {
+        "class_name": "snowplow, snowplough",
+        "emoji": "🚚"
+    },
+    "804": {
+        "class_name": "soap dispenser",
+        "emoji": "🧼"
+    },
+    "805": {
+        "class_name": "soccer ball",
+        "emoji": "⚽"
+    },
+    "806": {
+        "class_name": "sock",
+        "emoji": "🧦"
+    },
+    "807": {
+        "class_name": "solar dish, solar collector, solar furnace",
+        "emoji": "☀️"
+    },
+    "808": {
+        "class_name": "sombrero",
+        "emoji": "🤠"
+    },
+    "809": {
+        "class_name": "soup bowl",
+        "emoji": "🍲"
+    },
+    "810": {
+        "class_name": "space bar",
+        "emoji": "⌨️"
+    },
+    "811": {
+        "class_name": "space heater",
+        "emoji": ""
+    },
+    "812": {
+        "class_name": "space shuttle",
+        "emoji": "🚀"
+    },
+    "813": {
+        "class_name": "spatula",
+        "emoji": "🥄"
+    },
+    "814": {
+        "class_name": "speedboat",
+        "emoji": "🚤"
+    },
+    "815": {
+        "class_name": "spider web, spider's web ",
+        "emoji": "🕸️"
+    },
+    "816": {
+        "class_name": "spindle",
+        "emoji": ""
+    },
+    "817": {
+        "class_name": "sports car, sport car",
+        "emoji": "🏎️"
+    },
+    "818": {
+        "class_name": "spotlight, spot",
+        "emoji": "💡"
+    },
+    "819": {
+        "class_name": "stage",
+        "emoji": "👩‍🎤"
+    },
+    "820": {
+        "class_name": "steam locomotive",
+        "emoji": "🚂"
+    },
+    "821": {
+        "class_name": "steel arch bridge",
+        "emoji": "🌉"
+    },
+    "822": {
+        "class_name": "steel drum",
+        "emoji": "🛢️"
+    },
+    "823": {
+        "class_name": "stethoscope",
+        "emoji": "👨‍⚕️"
+    },
+    "824": {
+        "class_name": "stole",
+        "emoji": "🧣"
+    },
+    "825": {
+        "class_name": "stone wall",
+        "emoji": "🧱"
+    },
+    "826": {
+        "class_name": "stopwatch, stop watch",
+        "emoji": "⏰"
+    },
+    "827": {
+        "class_name": "stove",
+        "emoji": "🍳"
+    },
+    "828": {
+        "class_name": "strainer",
+        "emoji": "🥘"
+    },
+    "829": {
+        "class_name": "streetcar, tram, tramcar, trolley, trolley car",
+        "emoji": "🚎"
+    },
+    "830": {
+        "class_name": "stretcher",
+        "emoji": "🏥"
+    },
+    "831": {
+        "class_name": "studio couch, day bed",
+        "emoji": "🛋️"
+    },
+    "832": {
+        "class_name": "stupa, tope",
+        "emoji": "🕌"
+    },
+    "833": {
+        "class_name": "submarine, pigboat, sub, U-boat",
+        "emoji": "🌊"
+    },
+    "834": {
+        "class_name": "suit, suit of clothes",
+        "emoji": "🤵"
+    },
+    "835": {
+        "class_name": "sundial",
+        "emoji": "🌞"
+    },
+    "836": {
+        "class_name": "sunglass",
+        "emoji": "🌞"
+    },
+    "837": {
+        "class_name": "sunglasses, dark glasses, shades",
+        "emoji": "😎"
+    },
+    "838": {
+        "class_name": "sunscreen, sunblock, sun blocker",
+        "emoji": "🌞"
+    },
+    "839": {
+        "class_name": "suspension bridge",
+        "emoji": "🌉"
+    },
+    "840": {
+        "class_name": "swab, swob, mop",
+        "emoji": "🧹"
+    },
+    "841": {
+        "class_name": "sweatshirt",
+        "emoji": "👕"
+    },
+    "842": {
+        "class_name": "swimming trunks, bathing trunks",
+        "emoji": "🏊"
+    },
+    "843": {
+        "class_name": "swing",
+        "emoji": ""
+    },
+    "844": {
+        "class_name": "switch, electric switch, electrical switch",
+        "emoji": "🔘"
+    },
+    "845": {
+        "class_name": "syringe",
+        "emoji": "💉"
+    },
+    "846": {
+        "class_name": "table lamp",
+        "emoji": "💡"
+    },
+    "847": {
+        "class_name": "tank, army tank, armored combat vehicle, armoured combat vehicle",
+        "emoji": "🎖️"
+    },
+    "848": {
+        "class_name": "tape player",
+        "emoji": "📻"
+    },
+    "849": {
+        "class_name": "teapot",
+        "emoji": "☕"
+    },
+    "850": {
+        "class_name": "teddy, teddy bear",
+        "emoji": "🧸"
+    },
+    "851": {
+        "class_name": "television, television system",
+        "emoji": "📺"
+    },
+    "852": {
+        "class_name": "tennis ball",
+        "emoji": "🎾"
+    },
+    "853": {
+        "class_name": "thatch, thatched roof",
+        "emoji": "🏡"
+    },
+    "854": {
+        "class_name": "theater curtain, theatre curtain",
+        "emoji": "🎭"
+    },
+    "855": {
+        "class_name": "thimble",
+        "emoji": "🧵"
+    },
+    "856": {
+        "class_name": "thresher, thrasher, threshing machine",
+        "emoji": "🌾"
+    },
+    "857": {
+        "class_name": "throne",
+        "emoji": "👑"
+    },
+    "858": {
+        "class_name": "tile roof",
+        "emoji": "🏡"
+    },
+    "859": {
+        "class_name": "toaster",
+        "emoji": "🍞"
+    },
+    "860": {
+        "class_name": "tobacco shop, tobacconist shop, tobacconist",
+        "emoji": "🏪"
+    },
+    "861": {
+        "class_name": "toilet seat",
+        "emoji": "🚽"
+    },
+    "862": {
+        "class_name": "torch",
+        "emoji": "🔦"
+    },
+    "863": {
+        "class_name": "totem pole",
+        "emoji": "👹"
+    },
+    "864": {
+        "class_name": "tow truck, tow car, wrecker",
+        "emoji": "🚚"
+    },
+    "865": {
+        "class_name": "toyshop",
+        "emoji": "🛍️"
+    },
+    "866": {
+        "class_name": "tractor",
+        "emoji": "🚜"
+    },
+    "867": {
+        "class_name": "trailer truck, tractor trailer, trucking rig, rig, articulated lorry, semi",
+        "emoji": "🚚"
+    },
+    "868": {
+        "class_name": "tray",
+        "emoji": "📤"
+    },
+    "869": {
+        "class_name": "trench coat",
+        "emoji": "🧥"
+    },
+    "870": {
+        "class_name": "tricycle, trike, velocipede",
+        "emoji": "🚲"
+    },
+    "871": {
+        "class_name": "trimaran",
+        "emoji": "⛵"
+    },
+    "872": {
+        "class_name": "tripod",
+        "emoji": "🔭"
+    },
+    "873": {
+        "class_name": "triumphal arch",
+        "emoji": "⛩️"
+    },
+    "874": {
+        "class_name": "trolleybus, trolley coach, trackless trolley",
+        "emoji": "🚎"
+    },
+    "875": {
+        "class_name": "trombone",
+        "emoji": "🎺"
+    },
+    "876": {
+        "class_name": "tub, vat",
+        "emoji": "🛁"
+    },
+    "877": {
+        "class_name": "turnstile",
+        "emoji": ""
+    },
+    "878": {
+        "class_name": "typewriter keyboard",
+        "emoji": "⌨️"
+    },
+    "879": {
+        "class_name": "umbrella",
+        "emoji": "☂️"
+    },
+    "880": {
+        "class_name": "unicycle, monocycle",
+        "emoji": "🚲"
+    },
+    "881": {
+        "class_name": "upright, upright piano",
+        "emoji": "🎹"
+    },
+    "882": {
+        "class_name": "vacuum, vacuum cleaner",
+        "emoji": ""
+    },
+    "883": {
+        "class_name": "vase",
+        "emoji": "🏺"
+    },
+    "884": {
+        "class_name": "vault",
+        "emoji": "🏺"
+    },
+    "885": {
+        "class_name": "velvet",
+        "emoji": "🧣"
+    },
+    "886": {
+        "class_name": "vending machine",
+        "emoji": "🏪"
+    },
+    "887": {
+        "class_name": "vestment",
+        "emoji": ""
+    },
+    "888": {
+        "class_name": "viaduct",
+        "emoji": ""
+    },
+    "889": {
+        "class_name": "violin, fiddle",
+        "emoji": "🎻"
+    },
+    "890": {
+        "class_name": "volleyball",
+        "emoji": "🏐"
+    },
+    "891": {
+        "class_name": "waffle iron",
+        "emoji": "🍳"
+    },
+    "892": {
+        "class_name": "wall clock",
+        "emoji": "⏰"
+    },
+    "893": {
+        "class_name": "wallet, billfold, notecase, pocketbook",
+        "emoji": "👛"
+    },
+    "894": {
+        "class_name": "wardrobe, closet, press",
+        "emoji": "🚪"
+    },
+    "895": {
+        "class_name": "warplane, military plane",
+        "emoji": "🛩️"
+    },
+    "896": {
+        "class_name": "washbasin, handbasin, washbowl, lavabo, wash-hand basin",
+        "emoji": "🛁"
+    },
+    "897": {
+        "class_name": "washer, automatic washer, washing machine",
+        "emoji": "🛁"
+    },
+    "898": {
+        "class_name": "water bottle",
+        "emoji": "💦"
+    },
+    "899": {
+        "class_name": "water jug",
+        "emoji": "💦"
+    },
+    "900": {
+        "class_name": "water tower",
+        "emoji": "🗼"
+    },
+    "901": {
+        "class_name": "whiskey jug",
+        "emoji": "🥃"
+    },
+    "902": {
+        "class_name": "whistle",
+        "emoji": "🎺"
+    },
+    "903": {
+        "class_name": "wig",
+        "emoji": "💇"
+    },
+    "904": {
+        "class_name": "window screen",
+        "emoji": ""
+    },
+    "905": {
+        "class_name": "window shade",
+        "emoji": ""
+    },
+    "906": {
+        "class_name": "Windsor tie",
+        "emoji": "👔"
+    },
+    "907": {
+        "class_name": "wine bottle",
+        "emoji": "🍷"
+    },
+    "908": {
+        "class_name": "wing",
+        "emoji": "🦜"
+    },
+    "909": {
+        "class_name": "wok",
+        "emoji": "🥘"
+    },
+    "910": {
+        "class_name": "wooden spoon",
+        "emoji": "🥄"
+    },
+    "911": {
+        "class_name": "wool, woolen, woollen",
+        "emoji": "🧶"
+    },
+    "912": {
+        "class_name": "worm fence, snake fence, snake-rail fence, Virginia fence",
+        "emoji": "🌲"
+    },
+    "913": {
+        "class_name": "wreck",
+        "emoji": "🚘"
+    },
+    "914": {
+        "class_name": "yawl",
+        "emoji": "⛵"
+    },
+    "915": {
+        "class_name": "yurt",
+        "emoji": "⛺"
+    },
+    "916": {
+        "class_name": "web site, website, internet site, site",
+        "emoji": "🖥️"
+    },
+    "917": {
+        "class_name": "comic book",
+        "emoji": "📚"
+    },
+    "918": {
+        "class_name": "crossword puzzle, crossword",
+        "emoji": "🧩"
+    },
+    "919": {
+        "class_name": "street sign",
+        "emoji": "🛑"
+    },
+    "920": {
+        "class_name": "traffic light, traffic signal, stoplight",
+        "emoji": "🚦"
+    },
+    "921": {
+        "class_name": "book jacket, dust cover, dust jacket, dust wrapper",
+        "emoji": "📗"
+    },
+    "922": {
+        "class_name": "menu",
+        "emoji": "📗"
+    },
+    "923": {
+        "class_name": "plate",
+        "emoji": "🍽️"
+    },
+    "924": {
+        "class_name": "guacamole",
+        "emoji": "🥑"
+    },
+    "925": {
+        "class_name": "consomme",
+        "emoji": "🥣"
+    },
+    "926": {
+        "class_name": "hot pot, hotpot",
+        "emoji": "🍲"
+    },
+    "927": {
+        "class_name": "trifle",
+        "emoji": "🍰"
+    },
+    "928": {
+        "class_name": "ice cream, icecream",
+        "emoji": "🍦"
+    },
+    "929": {
+        "class_name": "ice lolly, lolly, lollipop, popsicle",
+        "emoji": "🍭"
+    },
+    "930": {
+        "class_name": "French loaf",
+        "emoji": "🥖"
+    },
+    "931": {
+        "class_name": "bagel, beigel",
+        "emoji": "🥯"
+    },
+    "932": {
+        "class_name": "pretzel",
+        "emoji": "🥨"
+    },
+    "933": {
+        "class_name": "cheeseburger",
+        "emoji": "🍔"
+    },
+    "934": {
+        "class_name": "hotdog, hot dog, red hot",
+        "emoji": "🌭"
+    },
+    "935": {
+        "class_name": "mashed potato",
+        "emoji": "🥔"
+    },
+    "936": {
+        "class_name": "head cabbage",
+        "emoji": "🥬"
+    },
+    "937": {
+        "class_name": "broccoli",
+        "emoji": "🥦"
+    },
+    "938": {
+        "class_name": "cauliflower",
+        "emoji": "🥦"
+    },
+    "939": {
+        "class_name": "zucchini, courgette",
+        "emoji": "🍠"
+    },
+    "940": {
+        "class_name": "spaghetti squash",
+        "emoji": "🍠"
+    },
+    "941": {
+        "class_name": "acorn squash",
+        "emoji": "🍠"
+    },
+    "942": {
+        "class_name": "butternut squash",
+        "emoji": "🍠"
+    },
+    "943": {
+        "class_name": "cucumber, cuke",
+        "emoji": "🥒"
+    },
+    "944": {
+        "class_name": "artichoke, globe artichoke",
+        "emoji": "🍠"
+    },
+    "945": {
+        "class_name": "bell pepper",
+        "emoji": "🌶️"
+    },
+    "946": {
+        "class_name": "cardoon",
+        "emoji": "🏴󠁧󠁢󠁳󠁣󠁴󠁿"
+    },
+    "947": {
+        "class_name": "mushroom",
+        "emoji": "🍄"
+    },
+    "948": {
+        "class_name": "Granny Smith",
+        "emoji": "🍏"
+    },
+    "949": {
+        "class_name": "strawberry",
+        "emoji": "🍓"
+    },
+    "950": {
+        "class_name": "orange",
+        "emoji": "🍊"
+    },
+    "951": {
+        "class_name": "lemon",
+        "emoji": "🍋"
+    },
+    "952": {
+        "class_name": "fig",
+        "emoji": "🥭"
+    },
+    "953": {
+        "class_name": "pineapple, ananas",
+        "emoji": "🍍"
+    },
+    "954": {
+        "class_name": "banana",
+        "emoji": "🍌"
+    },
+    "955": {
+        "class_name": "jackfruit, jak, jack",
+        "emoji": "🥭"
+    },
+    "956": {
+        "class_name": "custard apple",
+        "emoji": "🍎"
+    },
+    "957": {
+        "class_name": "pomegranate",
+        "emoji": "🥝"
+    },
+    "958": {
+        "class_name": "hay",
+        "emoji": "🌾"
+    },
+    "959": {
+        "class_name": "carbonara",
+        "emoji": "🍝"
+    },
+    "960": {
+        "class_name": "chocolate sauce, chocolate syrup",
+        "emoji": "🍫"
+    },
+    "961": {
+        "class_name": "dough",
+        "emoji": "🍞"
+    },
+    "962": {
+        "class_name": "meat loaf, meatloaf",
+        "emoji": "🥩"
+    },
+    "963": {
+        "class_name": "pizza, pizza pie",
+        "emoji": "🍕"
+    },
+    "964": {
+        "class_name": "potpie",
+        "emoji": "🥧"
+    },
+    "965": {
+        "class_name": "burrito",
+        "emoji": "🌯"
+    },
+    "966": {
+        "class_name": "red wine",
+        "emoji": "🍷"
+    },
+    "967": {
+        "class_name": "espresso",
+        "emoji": "☕"
+    },
+    "968": {
+        "class_name": "cup",
+        "emoji": "☕"
+    },
+    "969": {
+        "class_name": "eggnog",
+        "emoji": "🥛"
+    },
+    "970": {
+        "class_name": "alp",
+        "emoji": "⛰️"
+    },
+    "971": {
+        "class_name": "bubble",
+        "emoji": "🛁"
+    },
+    "972": {
+        "class_name": "cliff, drop, drop-off",
+        "emoji": "🧗"
+    },
+    "973": {
+        "class_name": "coral reef",
+        "emoji": "🐠"
+    },
+    "974": {
+        "class_name": "geyser",
+        "emoji": "⛲"
+    },
+    "975": {
+        "class_name": "lakeside, lakeshore",
+        "emoji": "🌊"
+    },
+    "976": {
+        "class_name": "promontory, headland, head, foreland",
+        "emoji": "🏖️"
+    },
+    "977": {
+        "class_name": "sandbar, sand bar",
+        "emoji": "🏖️"
+    },
+    "978": {
+        "class_name": "seashore, coast, seacoast, sea-coast",
+        "emoji": "🌊"
+    },
+    "979": {
+        "class_name": "valley, vale",
+        "emoji": "⛰️"
+    },
+    "980": {
+        "class_name": "volcano",
+        "emoji": "⛰️"
+    },
+    "981": {
+        "class_name": "ballplayer, baseball player",
+        "emoji": "🤽"
+    },
+    "982": {
+        "class_name": "groom, bridegroom",
+        "emoji": "🤵"
+    },
+    "983": {
+        "class_name": "scuba diver",
+        "emoji": "🤽"
+    },
+    "984": {
+        "class_name": "rapeseed",
+        "emoji": "🌾"
+    },
+    "985": {
+        "class_name": "daisy",
+        "emoji": "🌼"
+    },
+    "986": {
+        "class_name": "yellow lady's slipper,yellow lady - slipper,Cypripedium calceolus,Cypripedium parviflorum ",
+        "emoji": "🌼"
+    },
+    "987": {
+        "class_name": "corn",
+        "emoji": "🌾"
+    },
+    "988": {
+        "class_name": "acorn",
+        "emoji": "🌰"
+    },
+    "989": {
+        "class_name": "hip, rose hip, rosehip",
+        "emoji": "🍇"
+    },
+    "990": {
+        "class_name": "buckeye, horse chestnut, conker",
+        "emoji": "🌰"
+    },
+    "991": {
+        "class_name": "coral fungus",
+        "emoji": "🍄"
+    },
+    "992": {
+        "class_name": "agaric",
+        "emoji": "🍄"
+    },
+    "993": {
+        "class_name": "gyromitra",
+        "emoji": "🍄"
+    },
+    "994": {
+        "class_name": "stinkhorn, carrion fungus",
+        "emoji": "🍄"
+    },
+    "995": {
+        "class_name": "earthstar",
+        "emoji": "🍄"
+    },
+    "996": {
+        "class_name": "hen-of-the-woods, hen of the woods, Polyporus frondosus, Grifola frondosa",
+        "emoji": "🍄"
+    },
+    "997": {
+        "class_name": "bolete",
+        "emoji": "🍄"
+    },
+    "998": {
+        "class_name": "ear, spike, capitulum",
+        "emoji": "🌽"
+    },
+    "999": {
+        "class_name": "toilet tissue, toilet paper, bathroom tissue",
+        "emoji": "🧻"
+    }
+}
