@@ -1,3 +1,4 @@
+from typing import Optional
 import requests
 
 
@@ -34,11 +35,11 @@ def convert_iiif_info_to_image_uri(uri: str):
     return uri.replace('info.json', '') + 'full/max/0/default.jpg'
 
 
-def similarity_api_result_to_similar_work(neighbour):
+def similarity_api_result_to_similar_work(neighbour, max_title_len: Optional[int] = 150):
     """ Converts results from the similarity API to the model used in daily-art """
     return {
         "id": neighbour['source']['id'],
-        "title": neighbour['source']['title'],
+        "title": neighbour['source']['title'][:max_title_len],
         "full_image_uri": convert_iiif_info_to_image_uri(neighbour['thumbnail']['url']),
         "collection_url": f"https://wellcomecollection.org/works/{neighbour['source']['id']}"
     }
