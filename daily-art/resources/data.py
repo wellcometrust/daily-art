@@ -134,7 +134,6 @@ def save_data_locally(works):
         json.dump(works, f)
 
 
-
 def download_data_from_source():
     """ Downloads data from Wellcome API """
     counter = 0
@@ -158,6 +157,8 @@ def download_data_from_source():
         if counter % 100000 == 0:
             logger.info("Processing work number {}".format(counter))
 
+        import pdb
+        pdb.set_trace()
         counter += 1
 
         json_line = json.loads(line.decode('utf-8'))
@@ -198,4 +199,5 @@ def download_data_from_source():
 
 
 if __name__ == "__main__":
-    get_data()
+    #get_data()
+    download_data_from_source()
