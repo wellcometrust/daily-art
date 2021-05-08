@@ -4,6 +4,8 @@ import requests
 import logging
 
 from fastapi import FastAPI
+from fastapi.logger import logger
+
 from starlette.staticfiles import StaticFiles
 from starlette.templating import Jinja2Templates
 from starlette.requests import Request
@@ -24,7 +26,6 @@ filtered_works = get_data(
     exclude_sensitive=True, only_interesting=True, exclude_used=False
 )
 
-logger = logging.getLogger()
 logger.setLevel(logging.INFO)
 
 
@@ -33,7 +34,7 @@ def get_random_artwork(width):
     non_used_works = {key: value for key, value in filtered_works.items()
                       if not value["used"]}
 
-    app.logger.info(f"Still {len(non_used_works)} remaining")
+    logger.info(f"Still {len(non_used_works)} remaining")
 
     idx = random.randint(0, len(non_used_works) - 1)
     work_id = list(non_used_works.keys())[idx]
