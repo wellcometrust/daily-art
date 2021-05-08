@@ -44,6 +44,8 @@ def get_random_artwork(width):
     )
     non_used_works[work_id]["similar_works"] = get_visually_similar_artworks(work_id)
 
+    filtered_works[work_id]["used"] = True
+
     return non_used_works[work_id]
 
 
@@ -77,8 +79,6 @@ def random_art_slack(width: int = 600, work_id: str = ""):
     hook = os.getenv('SLACK_HOOK', '')
     message = SlackHook()
     slack_json = message.convert_to_work_slack_post(work)
-    slack_json["channel"] = CHANNEL_ID
-    slack_json["token"] = hook
 
     slack_request = requests.post(hook, json=slack_json)
 
