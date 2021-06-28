@@ -199,5 +199,5 @@ def download_data_from_source():
 
 
 if __name__ == "__main__":
-    #get_data()
-    download_data_from_source()
+    get_data()
+    #download_data_from_source()
