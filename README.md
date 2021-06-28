@@ -43,3 +43,11 @@ To integrate with your slack channel:
 ## Alternatives to `cron`
 
 In addition, if you don't have a server or don't want to run it on docker, you might want to check `main/slack_plugin.py` for scheduling daily messages for the future via a Slack BOT. It is restricted to 4 months of message.
+
+
+## To redeploy
+
+```bash
+docker build -t antoniocampello/daily-wellcome-art:2021.6.0 .
+docker push
+```

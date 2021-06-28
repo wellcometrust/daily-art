@@ -24,11 +24,11 @@ app.mount("/static", StaticFiles(directory="daily-art/static"),
 templates = Jinja2Templates(directory="daily-art/templates")
 
 filtered_works = get_data(
-    exclude_sensitive=True, only_interesting=True, exclude_used=True
+    exclude_sensitive=False, only_interesting=True, exclude_used=True
 )
 
 
-def get_random_artwork(width):
+def get_random_artwork(width, mark_as_used=False):
     """ Utility function to get random artwork """
     non_used_works = {key: value for key, value in filtered_works.items()
                       if not value["used"]}
@@ -44,7 +44,8 @@ def get_random_artwork(width):
     non_used_works[work_id]["similar_works"] = get_visually_similar_artworks(work_id)
 
     # My poor way of persist information without having a database :P
-    filtered_works[work_id]["used"] = True
+
+    filtered_works[work_id]["used"] = mark_as_used
     save_data_locally(filtered_works)
 
     return non_used_works[work_id]
@@ -53,7 +54,7 @@ def get_random_artwork(width):
 @app.get("/random-art")
 def random_art(request: Request, width: int = 600):
     """ Returns a rendered web page with a random artwork """
-    work = get_random_artwork(width=width)
+    work = get_random_artwork(width=width, mark_as_used=False)
 
     return templates.TemplateResponse(
         "main.html", {"work": work, "request": request}
@@ -75,7 +76,7 @@ def random_art_slack(width: int = 600, work_id: str = ""):
         work = filtered_works[work_id]
         work["similar_works"] = get_visually_similar_artworks(work_id)
     else:
-        work = get_random_artwork(width=width)
+        work = get_random_artwork(width=width, mark_as_used=True)
 
     hook = os.getenv('SLACK_HOOK', '')
     message = SlackHook()
